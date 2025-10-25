@@ -32,7 +32,7 @@ GitHub Profile README for shahriarbd10
 ## 👋 Hi, I'm **Shahriar Hossain (shahriarbd10)**
 **Full-Stack Developer | IoT & Cloud Specialist | Node.js & AWS Expert**
 
-I develop **high-performance software**, build **scalable cloud solutions**, and craft **modern web applications**. My focus is on creating robust systems with clean code, smooth UX, and advanced real-time capabilities.
+I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern web apps** focused on performance, reliability, and delightful UX.
 
 - 🔭 **Focus:** Building low-latency **APIs**, **real-time data synchronization**, and **cloud-native applications**  
 - 🧭 **Product mindset:** Clean design, frictionless user experiences, and strong observability for easy debugging  
@@ -82,61 +82,29 @@ A lightweight **MERN** SaaS for pharmacies: **stock tracking**, **invoicing**, *
 
 ---
 
-## 📊 Open-Source & Activity
-<div align="center">
+## 📊 GitHub Activity
 
-<!-- GitHub Stats + Current Streak -->
-<table>
-  <tr>
-    <td>
-      <img alt="GitHub stats for shahriarbd10" src="https://github-readme-stats.vercel.app/api?username=shahriarbd10&show_icons=true&theme=radical&hide_border=true&border_radius=12" />
-    </td>
-    <td>
-      <img alt="Top languages used by shahriarbd10" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarbd10&layout=compact&theme=radical&hide_border=true&border_radius=12" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img alt="GitHub streak for shahriarbd10" src="https://streak-stats.demolab.com?user=shahriarbd10&theme=radical&hide_border=true&border_radius=12" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <!-- GitHub Stats + Current Streak -->
+  <table>
+    <tr>
+      <td>
+        <img alt="GitHub stats for shahriarbd10" src="https://github-readme-stats.vercel.app/api?username=shahriarbd10&show_icons=true&theme=radical&hide_border=true&border_radius=12" />
+      </td>
+      <td>
+        <img alt="Top languages used by shahriarbd10" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarbd10&layout=compact&theme=radical&hide_border=true&border_radius=12" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img alt="GitHub streak for shahriarbd10" src="https://streak-stats.demolab.com?user=shahriarbd10&theme=radical&hide_border=true&border_radius=12" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 <!-- Optional Trophies -->
 <img alt="GitHub Trophies for shahriarbd10" src="https://github-profile-trophy.vercel.app/?username=shahriarbd10&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=-1" />
-</div>
-
-<!-- ====== INLINE ACHIEVEMENTS (GitHub-safe) ====== -->
-<div align="center">
-<svg viewBox="0 0 980 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Achievements of shahriarbd10" style="max-width:980px;width:100%;height:auto;display:block;">
-  <defs>
-    <linearGradient id="grad" x1="0" x2="1" y1="0" y2="0">
-      <stop stop-color="#0ea5e9" offset="0%"/>
-      <stop stop-color="#a855f7" offset="100%"/>
-    </linearGradient>
-  </defs>
-
-  <rect x="10"  y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
-  <text x="60" y="46" fill="url(#grad)" font-weight="800" font-size="18" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">🏆</text>
-  <text x="90" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Open-Source</text>
-  <text x="90" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Active repos, PRs &amp; issues</text>
-
-  <rect x="250" y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
-  <text x="300" y="46" fill="url(#grad)" font-weight="800" font-size="18" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">☁️</text>
-  <text x="330" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Cloud &amp; IoT</text>
-  <text x="330" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">MQTT, WS, AWS deployments</text>
-
-  <rect x="490" y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
-  <text x="540" y="46" fill="url(#grad)" font-weight="800" font-size="18" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">🎨</text>
-  <text x="570" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Frontend Polish</text>
-  <text x="570" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">React, UX, accessibility</text>
-
-  <rect x="730" y="12" width="240" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
-  <text x="780" y="46" fill="url(#grad)" font-weight="800" font-size="18" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">🛡️</text>
-  <text x="810" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Reliability</text>
-  <text x="810" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">CI/CD, lint, health checks</text>
-</svg>
-</div>
 
 ---
 
