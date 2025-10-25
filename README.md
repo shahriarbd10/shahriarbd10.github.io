@@ -42,7 +42,8 @@ I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern 
 
 ## 🛠️ Tech Stack
 <div align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,redux,express,tailwind,html,css,materialui,bootstrap,aws,docker,nginx,redis,mongodb,postgres,prisma,git,github,gitlab,linux,raspberrypi,arduino,figma,vscode&perline=13" alt="Tech stack for shahriarbd10: JS, TS, Node.js, React, Next.js, Express, Tailwind, AWS, Docker, MongoDB, Postgres, Redis, Prisma, etc."/>
+<!-- UPDATED: removed materialui, added vite -->
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,vite,redux,express,tailwind,html,css,bootstrap,aws,docker,nginx,redis,mongodb,postgres,prisma,git,github,gitlab,linux,raspberrypi,arduino,figma,vscode&perline=13" alt="Tech stack for shahriarbd10: JS, TS, Node.js, React, Next.js, Vite, Redux, Express, Tailwind, AWS, Docker, Redis, MongoDB, Postgres, Prisma, Git, GitHub, GitLab, Linux, Raspberry Pi, Arduino, Figma, VS Code"/>
 <br/><br/>
 <img src="https://img.shields.io/badge/Realtime-IoT%20%E2%80%A2%20MQTT%20%E2%80%A2%20WebSockets-111827?style=for-the-badge" alt="Realtime IoT: MQTT, WebSockets"/>
 <img src="https://img.shields.io/badge/Cloud-AWS%20EC2%20%E2%80%A2%20S3%20%E2%80%A2%20Route53-111827?style=for-the-badge" alt="AWS EC2, S3, Route53"/>
