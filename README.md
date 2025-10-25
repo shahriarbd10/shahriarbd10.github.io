@@ -1,3 +1,5 @@
+![Visitor Count](https://profile-counter.glitch.me/YOUR_USERNAME/count.svg)
+
 # 👋 Hi, I'm Shahriar Hossain
 ### Full-stack Developer | IoT & Cloud Enthusiast | Node.js & AWS
 
@@ -39,3 +41,5 @@
 
 ## 📊 GitHub Stats
 ![Shahriar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shahriarhossain&show_icons=true&theme=radical)
+
+https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical
