@@ -98,11 +98,14 @@ A lightweight **MERN** SaaS for pharmacies: **stock tracking**, **invoicing**, *
         <img alt="GitHub streak for shahriarbd10" src="https://streak-stats.demolab.com?user=shahriarbd10&theme=radical&hide_border=true&border_radius=12" />
       </td>
     </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img alt="Time Spent for shahriarbd10" src="https://github-readme-stats.vercel.app/api/wakatime/?username=shahriarbd10&theme=radical&hide_border=true&layout=compact&display_format=time&langs_count=4&custom_title=Time%20Spent" />
+      </td>
+    </tr>
   </table>
 </div>
 
-<!-- Optional Trophies -->
-<img alt="GitHub Trophies for shahriarbd10" src="https://github-profile-trophy.vercel.app/?username=shahriarbd10&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=-1" />
 
 ---
 
