@@ -1,9 +1,9 @@
 <!--
 README.md — High-impact GitHub Profile for shahriarbd10
 SEO notes:
-- Use your handle + name in headings and alt attributes.
+- Include your name + handle in prominent headings and image alt text.
 - Keep links to your portfolio and social profiles consistent across platforms.
-- Pinned repos + active contributions strengthen discoverability.
+- Public pinned repos + regular commits strengthen discoverability.
 -->
 
 <!-- ====== HEADER WAVE BANNER ====== -->
@@ -109,9 +109,11 @@ MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.
   </tr>
 </table>
 
-<!-- Inline Achievements (reliable; replaces flaky trophy image services) -->
+<!-- 🏆 Inline Achievements (reliable; replaces flaky trophy services) -->
 <div align="center">
-  <svg width="980" height="128" viewBox="0 0 980 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Achievements of shahriarbd10">
+  <svg viewBox="0 0 980 128" xmlns="http://www.w3.org/2000/svg"
+       role="img" aria-label="Achievements of shahriarbd10"
+       style="max-width:980px;width:100%;height:auto;display:block;">
     <defs>
       <linearGradient id="grad" x1="0" x2="1" y1="0" y2="0">
         <stop stop-color="#0ea5e9" offset="0%"/>
@@ -123,28 +125,33 @@ MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.
         .label { fill:#e5e7eb; font:600 14px/1 Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
         .sub { fill:#9ca3af; font:500 12px/1 Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
       </style>
-      <g id="trophy">
+      <!-- Reusable trophy icon -->
+      <g id="trophy" transform="scale(1)">
         <path class="icon" d="M20 10h40v10h12c1 0 2 1 2 2v8c0 10-8 18-18 18h-8c-2 4-6 7-10 8v6h14v10H18V62h14v-6c-4-1-8-4-10-8H14C4 48-4 40-4 30v-8c0-1 1-2 2-2H10V10h10zm0 10v10h-8v4c0 6 4 10 10 10h6c2-4 6-7 10-8V20H20zm40 0H50v16c4 1 8 4 10 8h6c6 0 10-4 10-10v-4H60V20z"/>
       </g>
     </defs>
 
-    <rect class="card" x="10"  y="12" width="230" height="104"/>
-    <use href="#trophy" x="30" y="20"/>
+    <!-- Card 1 -->
+    <rect class="card" x="10"  y="12" width="230" height="104" />
+    <use href="#trophy" x="30" y="20" />
     <text class="label" x="90" y="58">Open-Source</text>
     <text class="sub"   x="90" y="80">Active repos, PRs & issues</text>
 
-    <rect class="card" x="250" y="12" width="230" height="104"/>
-    <use href="#trophy" x="270" y="20"/>
+    <!-- Card 2 -->
+    <rect class="card" x="250" y="12" width="230" height="104" />
+    <use href="#trophy" x="270" y="20" />
     <text class="label" x="330" y="58">Cloud & IoT</text>
     <text class="sub"   x="330" y="80">MQTT, WS, AWS deployments</text>
 
-    <rect class="card" x="490" y="12" width="230" height="104"/>
-    <use href="#trophy" x="510" y="20"/>
+    <!-- Card 3 -->
+    <rect class="card" x="490" y="12" width="230" height="104" />
+    <use href="#trophy" x="510" y="20" />
     <text class="label" x="570" y="58">Frontend Polish</text>
     <text class="sub"   x="570" y="80">React, UX, accessibility</text>
 
-    <rect class="card" x="730" y="12" width="240" height="104"/>
-    <use href="#trophy" x="750" y="20"/>
+    <!-- Card 4 -->
+    <rect class="card" x="730" y="12" width="240" height="104" />
+    <use href="#trophy" x="750" y="20" />
     <text class="label" x="810" y="58">Reliability</text>
     <text class="sub"   x="810" y="80">CI/CD, lint, health checks</text>
   </svg>
