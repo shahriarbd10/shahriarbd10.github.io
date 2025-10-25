@@ -1,26 +1,71 @@
 <!--
 GitHub Profile README for shahriarbd10
-- Inline SVG header + achievements with NO <style> tags (avoids leaking text).
-- MediTrack uses pin card only; description is pulled from repo settings.
+- Premium inline SVG header (no <style> tags) with monogram + gradient name.
+- MediTrack uses the pin card only; its description is pulled from the repo settings.
 -->
 
-<!-- ====== INLINE SVG HEADER (no <style>) ====== -->
+<!-- ====== PREMIUM INLINE SVG HEADER (no <style>) ====== -->
 <div align="center">
-<svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shahriar Hossain (shahriarbd10) — Full-Stack Developer, IoT & Cloud" style="width:100%;height:auto;max-height:220px;display:block;">
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shahriar Hossain (shahriarbd10) — Full-Stack Developer, IoT & Cloud" style="width:100%;height:auto;max-height:260px;display:block;">
   <defs>
-    <linearGradient id="headerGrad" x1="0" x2="1" y1="0" y2="0">
+    <!-- Background -->
+    <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="0">
       <stop stop-color="#0ea5e9" offset="0%"/>
       <stop stop-color="#a855f7" offset="100%"/>
     </linearGradient>
+    <!-- Name text gradient -->
+    <linearGradient id="nameGrad" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#ffffff" offset="0%"/>
+      <stop stop-color="#e9d5ff" offset="50%"/>
+      <stop stop-color="#fafafa" offset="100%"/>
+    </linearGradient>
+    <!-- Accent gradient for medallion -->
+    <linearGradient id="ringGrad" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#22d3ee" offset="0%"/>
+      <stop stop-color="#a78bfa" offset="100%"/>
+    </linearGradient>
+    <!-- Soft shadows -->
+    <filter id="softDrop">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0b0f1a" flood-opacity="0.35"/>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
   </defs>
-  <rect x="0" y="0" width="1200" height="220" fill="url(#headerGrad)"/>
-  <path d="M0,150 C250,190 450,110 700,150 C950,190 1100,120 1200,160 L1200,220 L0,220 Z" fill="rgba(255,255,255,0.12)"/>
-  <text x="50%" y="42%" text-anchor="middle" fill="#ffffff" font-weight="700" font-size="34" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Shahriar Hossain (shahriarbd10)</text>
-  <text x="50%" y="63%" text-anchor="middle" fill="#e5e7eb" font-weight="500" font-size="16" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Full-Stack Developer • IoT & Cloud • Node.js & AWS</text>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="260" fill="url(#bgGrad)"/>
+  <path d="M0,160 C240,210 420,120 700,160 C980,200 1100,130 1200,170 L1200,260 L0,260 Z" fill="rgba(255,255,255,0.10)"/>
+  <circle cx="1100" cy="40" r="60" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="70" cy="50" r="40" fill="rgba(255,255,255,0.06)"/>
+
+  <!-- Left medallion (monogram) -->
+  <g transform="translate(220,130)">
+    <circle cx="-120" cy="0" r="44" fill="rgba(255,255,255,0.08)"/>
+    <circle cx="-120" cy="0" r="42" fill="none" stroke="url(#ringGrad)" stroke-width="3" filter="url(#softDrop)"/>
+    <text x="-120" y="8" text-anchor="middle" fill="url(#ringGrad)" font-weight="800" font-size="24" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">SH</text>
+  </g>
+
+  <!-- Centered name -->
+  <g filter="url(#softDrop)">
+    <text x="50%" y="110" text-anchor="middle" fill="#101827" opacity="0.25" font-weight="900" font-size="54" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Shahriar Hossain</text>
+  </g>
+  <g>
+    <text x="50%" y="108" text-anchor="middle" fill="url(#nameGrad)" font-weight="900" font-size="48" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Shahriar Hossain</text>
+    <text x="50%" y="144" text-anchor="middle" fill="rgba(255,255,255,0.92)" font-weight="600" font-size="18" letter-spacing="0.3" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">(shahriarbd10)</text>
+  </g>
+
+  <!-- Subtitle -->
+  <g>
+    <text x="50%" y="178" text-anchor="middle" fill="#e5e7eb" font-weight="500" font-size="16" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Full-Stack Developer • IoT &amp; Cloud • Node.js &amp; AWS</text>
+  </g>
+
+  <!-- Decorative underline -->
+  <path d="M360,190 C520,210 680,210 840,190" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2" filter="url(#softGlow)"/>
 </svg>
 </div>
 
-<div align="center" style="margin-top:8px;">
+<div align="center" style="margin-top:10px;">
   <img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-0ea5e9?style=for-the-badge&logo=google-maps&logoColor=white" alt="Dhaka, Bangladesh — base of shahriarbd10"/>
   <a href="https://xfishery.com"><img src="https://img.shields.io/badge/Portfolio-xfishery.com-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio of Shahriar Hossain (shahriarbd10)"/></a>
   <a href="mailto:shahriarsgr@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Shahriar-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shahriar Hossain"/></a>
@@ -66,7 +111,7 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
 
 ### 🔹 MediTrack Pharmacy Inventory System
 <a href="https://github.com/shahriarbd10/meditrack-v1">
-  <img alt="MediTrack pinned card — repo by shahriarbd10" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true&cache_seconds=7200&v=2"/>
+  <img alt="MediTrack pinned card — repo by shahriarbd10" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true&cache_seconds=7200&v=3"/>
 </a>
 <!-- The pin card auto-loads your repo description; set it in the repo About. -->
 
