@@ -1,67 +1,23 @@
 <!--
 GitHub Profile README for shahriarbd10
-- Premium inline SVG header (no <style> tags) with monogram + gradient name.
+- Header uses ONLY safe SVG tags (no <style>, no <filter>) so nothing leaks as plain text.
 - MediTrack uses the pin card only; its description is pulled from the repo settings.
 -->
 
-<!-- ====== PREMIUM INLINE SVG HEADER (no <style>) ====== -->
+<!-- ====== CLEAN INLINE SVG HEADER (GitHub-safe) ====== -->
 <div align="center">
-<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shahriar Hossain (shahriarbd10) — Full-Stack Developer, IoT & Cloud" style="width:100%;height:auto;max-height:260px;display:block;">
+<svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shahriar Hossain (shahriarbd10) — Full-Stack Developer, IoT & Cloud" style="width:100%;height:auto;max-height:220px;display:block;">
   <defs>
-    <!-- Background -->
     <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="0">
       <stop stop-color="#0ea5e9" offset="0%"/>
       <stop stop-color="#a855f7" offset="100%"/>
     </linearGradient>
-    <!-- Name text gradient -->
-    <linearGradient id="nameGrad" x1="0" x2="1" y1="0" y2="0">
-      <stop stop-color="#ffffff" offset="0%"/>
-      <stop stop-color="#e9d5ff" offset="50%"/>
-      <stop stop-color="#fafafa" offset="100%"/>
-    </linearGradient>
-    <!-- Accent gradient for medallion -->
-    <linearGradient id="ringGrad" x1="0" x2="1" y1="0" y2="0">
-      <stop stop-color="#22d3ee" offset="0%"/>
-      <stop stop-color="#a78bfa" offset="100%"/>
-    </linearGradient>
-    <!-- Soft shadows -->
-    <filter id="softDrop">
-      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0b0f1a" flood-opacity="0.35"/>
-    </filter>
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="3"/>
-    </filter>
   </defs>
-
-  <!-- Background -->
-  <rect x="0" y="0" width="1200" height="260" fill="url(#bgGrad)"/>
-  <path d="M0,160 C240,210 420,120 700,160 C980,200 1100,130 1200,170 L1200,260 L0,260 Z" fill="rgba(255,255,255,0.10)"/>
-  <circle cx="1100" cy="40" r="60" fill="rgba(255,255,255,0.06)"/>
-  <circle cx="70" cy="50" r="40" fill="rgba(255,255,255,0.06)"/>
-
-  <!-- Left medallion (monogram) -->
-  <g transform="translate(220,130)">
-    <circle cx="-120" cy="0" r="44" fill="rgba(255,255,255,0.08)"/>
-    <circle cx="-120" cy="0" r="42" fill="none" stroke="url(#ringGrad)" stroke-width="3" filter="url(#softDrop)"/>
-    <text x="-120" y="8" text-anchor="middle" fill="url(#ringGrad)" font-weight="800" font-size="24" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">SH</text>
-  </g>
-
-  <!-- Centered name -->
-  <g filter="url(#softDrop)">
-    <text x="50%" y="110" text-anchor="middle" fill="#101827" opacity="0.25" font-weight="900" font-size="54" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Shahriar Hossain</text>
-  </g>
-  <g>
-    <text x="50%" y="108" text-anchor="middle" fill="url(#nameGrad)" font-weight="900" font-size="48" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Shahriar Hossain</text>
-    <text x="50%" y="144" text-anchor="middle" fill="rgba(255,255,255,0.92)" font-weight="600" font-size="18" letter-spacing="0.3" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">(shahriarbd10)</text>
-  </g>
-
-  <!-- Subtitle -->
-  <g>
-    <text x="50%" y="178" text-anchor="middle" fill="#e5e7eb" font-weight="500" font-size="16" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Full-Stack Developer • IoT &amp; Cloud • Node.js &amp; AWS</text>
-  </g>
-
-  <!-- Decorative underline -->
-  <path d="M360,190 C520,210 680,210 840,190" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2" filter="url(#softGlow)"/>
+  <rect x="0" y="0" width="1200" height="220" fill="url(#bgGrad)"/>
+  <path d="M0,150 C240,190 460,110 720,150 C980,190 1100,120 1200,160 L1200,220 L0,220 Z" fill="rgba(255,255,255,0.12)"/>
+  <text x="50%" y="110" text-anchor="middle" fill="#ffffff" font-weight="800" font-size="40" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Shahriar Hossain</text>
+  <text x="50%" y="140" text-anchor="middle" fill="#eef2ff" font-weight="600" font-size="16" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">(shahriarbd10)</text>
+  <text x="50%" y="168" text-anchor="middle" fill="#e5e7eb" font-weight="500" font-size="16" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Full-Stack Developer • IoT &amp; Cloud • Node.js &amp; AWS</text>
 </svg>
 </div>
 
@@ -111,7 +67,7 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
 
 ### 🔹 MediTrack Pharmacy Inventory System
 <a href="https://github.com/shahriarbd10/meditrack-v1">
-  <img alt="MediTrack pinned card — repo by shahriarbd10" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true&cache_seconds=7200&v=3"/>
+  <img alt="MediTrack pinned card — repo by shahriarbd10" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true&cache_seconds=7200&v=4"/>
 </a>
 <!-- The pin card auto-loads your repo description; set it in the repo About. -->
 
@@ -144,7 +100,7 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
 </table>
 </div>
 
-<!-- ====== INLINE ACHIEVEMENTS (no <style>) ====== -->
+<!-- ====== INLINE ACHIEVEMENTS (GitHub-safe) ====== -->
 <div align="center">
 <svg viewBox="0 0 980 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Achievements of shahriarbd10" style="max-width:980px;width:100%;height:auto;display:block;">
   <defs>
@@ -152,28 +108,25 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
       <stop stop-color="#0ea5e9" offset="0%"/>
       <stop stop-color="#a855f7" offset="100%"/>
     </linearGradient>
-    <g id="trophy">
-      <path fill="url(#grad)" d="M20 10h40v10h12c1 0 2 1 2 2v8c0 10-8 18-18 18h-8c-2 4-6 7-10 8v6h14v10H18V62h14v-6c-4-1-8-4-10-8H14C4 48-4 40-4 30v-8c0-1 1-2 2-2H10V10h10zm0 10v10h-8v4c0 6 4 10 10 10h6c2-4 6-7 10-8V20H20zm40 0H50v16c4 1 8 4 10 8h6c6 0 10-4 10-10v-4H60V20z"/>
-    </g>
   </defs>
 
   <rect x="10"  y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
-  <use href="#trophy" x="30" y="20"/>
+  <text x="60" y="46" fill="url(#grad)" font-weight="800" font-size="18" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">🏆</text>
   <text x="90" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Open-Source</text>
   <text x="90" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Active repos, PRs &amp; issues</text>
 
   <rect x="250" y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
-  <use href="#trophy" x="270" y="20"/>
+  <text x="300" y="46" fill="url(#grad)" font-weight="800" font-size="18" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">☁️</text>
   <text x="330" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Cloud &amp; IoT</text>
   <text x="330" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">MQTT, WS, AWS deployments</text>
 
   <rect x="490" y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
-  <use href="#trophy" x="510" y="20"/>
+  <text x="540" y="46" fill="url(#grad)" font-weight="800" font-size="18" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">🎨</text>
   <text x="570" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Frontend Polish</text>
   <text x="570" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">React, UX, accessibility</text>
 
   <rect x="730" y="12" width="240" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
-  <use href="#trophy" x="750" y="20"/>
+  <text x="780" y="46" fill="url(#grad)" font-weight="800" font-size="18" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">🛡️</text>
   <text x="810" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Reliability</text>
   <text x="810" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">CI/CD, lint, health checks</text>
 </svg>
