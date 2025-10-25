@@ -3,11 +3,10 @@
   <img src="https://img.shields.io/badge/Full-Stack%20Developer-ff69b4?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Full-Stack Dev Banner"/>
 </p>
 
-# 👋 Hi, I'm Shahriar Hossain (shahriarbd10)
+# 👋 Hi, I'm Shahriarbd10
 ### Full-Stack Developer | IoT & Cloud Specialist | Node.js & AWS Expert
 
-I am **Shahriar Hossain**, a **Full-Stack Developer from Dhaka, Bangladesh**.  
-I specialize in **Node.js, React, MERN stack, AWS cloud hosting, and IoT dashboards**.  
+I am a **Full-Stack Developer from Dhaka, Bangladesh** specializing in **Node.js, React, MERN, AWS, and IoT dashboards**.  
 
 🚀 I build **real-time IoT dashboards, scalable cloud applications, and modern web apps**.  
 
@@ -63,10 +62,16 @@ I specialize in **Node.js, React, MERN stack, AWS cloud hosting, and IoT dashboa
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics (Stylish)
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shahriarbd10&show_icons=true&theme=radical" alt="Shahriar's GitHub Stats"/>
+  <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarbd10&layout=compact&theme=radical" alt="Top Languages"/>
+
+  <!-- Contribution Heatmap -->
+  <img src="https://activity-graph.herokuapp.com/graph?username=shahriarbd10&theme=react-dark&hide_border=true" alt="Contribution Graph"/>
+
+  <!-- Streak Stats -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shahriarbd10&theme=radical&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ---
@@ -79,16 +84,16 @@ I specialize in **Node.js, React, MERN stack, AWS cloud hosting, and IoT dashboa
 ---
 
 ## ✨ Highlights
-- ✅ 100% Public Repositories with **strong MERN stack & Node.js skills**  
+- ✅ Public Repositories with strong MERN stack & Node.js skills  
 - ✅ Cloud Deployment on **AWS EC2** with SSL integration  
 - ✅ Real-time IoT dashboards and modern web apps  
 - ✅ UX/UI focused with **animated, high-end visuals**  
-- ✅ Optimized for **Google Search** and SEO-friendly  
+- ✅ SEO optimized for **Google search ranking**
 
 ---
 
 ### 💬 Fun Fact
-I combine **IoT, cloud, and full-stack development** to create **practical applications that solve real-world problems**.  
+I create **practical applications using IoT, cloud computing, and full-stack development** to solve **real-world problems**.  
 
 <p align="center">
   <img src="https://img.shields.io/badge/Coding-Fun-ff69b4?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Coding Fun"/>
