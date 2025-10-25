@@ -1,19 +1,18 @@
 <!--
 README.md — Polished, high-impact GitHub Profile
-Tips:
-1) Replace the email below with your real address.
-2) All images are remote + cache-friendly. No scripts required.
+- Replace the email below with your real address.
+- External services used sparingly; inline SVG footer ensures reliability.
 -->
 
 <!-- ====== HEADER WAVE BANNER ====== -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0ea5e9,100:a855f7&text=Shahriar%20Hossain%20%28shahriarbd10%29&fontAlign=50&fontAlignY=35&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20IoT%20%26%20Cloud%20%E2%80%A2%20Node.js%20%26%20AWS&descAlign=50&descAlignY=62&reversal=false" />
-  <img alt="Header banner" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0ea5e9,100:a855f7&text=Shahriar%20Hossain%20%28shahriarbd10%29&fontAlign=50&fontAlignY=35&fontSize=44&fontColor=0e1116&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20IoT%20%26%20Cloud%20%E2%80%A2%20Node.js%20%26%20AWS&descAlign=50&descAlignY=62&reversal=false" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,100:a855f7&text=Shahriar%20Hossain%20%28shahriarbd10%29&fontAlign=50&fontAlignY=35&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20IoT%20%26%20Cloud%20%E2%80%A2%20Node.js%20%26%20AWS&descAlign=50&descAlignY=62" />
+  <img alt="Header banner" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,100:a855f7&text=Shahriar%20Hossain%20%28shahriarbd10%29&fontAlign=50&fontAlignY=35&fontSize=44&fontColor=0e1116&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20IoT%20%26%20Cloud%20%E2%80%A2%20Node.js%20%26%20AWS&descAlign=50&descAlignY=62" />
 </picture>
 
 <div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&size=22&duration=2800&pause=800&center=true&vCenter=true&width=900&lines=Building+real-time+IoT+dashboards+%26+cloud-native+apps;Designing+scalable+backends+with+Node.js+%26+AWS;Creating+polished+React+frontends+with+great+UX)](https://github.com/DenverCoder1/readme-typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2600&pause=800&center=true&vCenter=true&width=980&lines=Building+real-time+IoT+dashboards+%26+cloud-native+apps;Designing+scalable+backends+with+Node.js+%26+AWS;Crafting+polished+React+frontends+with+great+UX)](https://github.com/DenverCoder1/readme-typing-svg)
 
 <!-- Quick badges -->
 <img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-0ea5e9?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location"/>
@@ -29,21 +28,21 @@ Tips:
 
 I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern web apps** with an eye for performance, reliability, and delightful UX.
 
-- 🔭 Current focus: low-latency APIs, MQTT/WS telemetry, and infra-as-code on AWS  
-- 🧭 Product mindset: clean design, frictionless flows, and strong observability  
-- 🔒 Pragmatic security: JWT/OAuth, rate-limits, secrets hygiene, least privilege IAM  
+- 🔭 Focus: low-latency APIs, MQTT/WS telemetry, infra-as-code on AWS  
+- 🧭 Product mindset: clean design, frictionless flows, strong observability  
+- 🔒 Security: JWT/OAuth, rate-limits, secret hygiene, least-privilege IAM  
 
 ---
 
 ## 🛠️ Tech Stack
 <div align="center">
-  
+
 <!-- Skill icons (auto dark/light) -->
 <img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,redux,express,tailwind,html,css,materialui,bootstrap,aws,docker,nginx,redis,mongodb,postgres,prisma,git,github,gitlab,linux,raspberrypi,arduino,figma,vscode&perline=13" alt="Tech stack icons"/>
 
-<!-- Bonus badges -->
+<!-- Bonus tags -->
 <br/><br/>
-<img src="https://img.shields.io/badge/Realtime-IoT%20%E2%80%A2%20MQTT%20%E2%80%A2%20WS-111827?style=for-the-badge" alt="Realtime"/>
+<img src="https://img.shields.io/badge/Realtime-IoT%20%E2%80%A2%20MQTT%20%E2%80%A2%20WebSockets-111827?style=for-the-badge" alt="Realtime"/>
 <img src="https://img.shields.io/badge/Cloud-AWS%20EC2%20%E2%80%A2%20S3%20%E2%80%A2%20Route53-111827?style=for-the-badge" alt="Cloud"/>
 <img src="https://img.shields.io/badge/Quality-CI%2FCD%20%E2%80%A2%20Tests%20%E2%80%A2%20Lint-111827?style=for-the-badge" alt="Quality"/>
 
@@ -53,8 +52,8 @@ I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern 
 
 ## 🚀 Featured Projects
 
-### 🔹 Xfishery and User Dashboard
-Real-time monitoring for aquaculture: **pH, temperature, ammonia, DO** with alerting and analytics.  
+### 🔹 Xfishery Sensor & User Dashboard
+Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting & analytics.  
 **Stack:** Node.js • Express • React • WebSockets/MQTT • MongoDB • Docker • AWS EC2 + HTTPS  
 <div align="left">
   <a href="https://xfishery.com">
@@ -67,16 +66,31 @@ Real-time monitoring for aquaculture: **pH, temperature, ammonia, DO** with aler
 
 ### 🔹 MediTrack Pharmacy Inventory System
 MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.  
-<a href="https://github.com/shahriarbd10/meditrack-v1.git">
-  <img alt="Pharmacy pinned card" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=pharmacy-inventory&theme=radical&border_radius=12&hide_border=true"/>
+<a href="https://github.com/shahriarbd10/meditrack-v1">
+  <img alt="MediTrack pinned card" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true"/>
 </a>
+
+<details>
+  <summary><b>Architecture & Highlights</b></summary>
+  <br/>
+  • Role-based auth (JWT) · Protected routes · Audit logs<br/>
+  • Robust validation (server + client) · Reusable React components<br/>
+  • Inventory lifecycle: GRN → Stock → Dispense → Invoice → Reports
+</details>
+
+---
+
+## 🧩 UX Principles I Care About
+- **Fast**: edge caching, compression, bundle-splitting  
+- **Reliable**: typed APIs, health checks, graceful fallbacks  
+- **Accessible**: semantic HTML, keyboard nav, color-contrast, ARIA  
+- **Beautiful**: consistent spacing, modern type, micro-interactions  
 
 ---
 
 ## 📊 Open-Source & Activity
 <div align="center">
 
-<!-- Stats grid -->
 <table>
   <tr>
     <td>
@@ -100,14 +114,6 @@ MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.
 
 ---
 
-## 🧩 UX Highlights I Care About
-- **Fast**: edge caching, compression, image optimization, bundle-splitting  
-- **Reliable**: typed APIs, health checks, monitors, graceful fallbacks  
-- **Accessible**: semantic HTML, keyboard nav, color-contrast, ARIA  
-- **Beautiful**: consistent spacing, modern typography, micro-interactions  
-
----
-
 ## 🤝 Connect
 <div align="center">
   <a href="https://www.linkedin.com/in/shahriarhossain/">
@@ -119,7 +125,7 @@ MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.
   <a href="https://xfishery.com">
     <img src="https://img.shields.io/badge/Portfolio-Visit-00A0E3?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:shahriarsgr@gmail.com">
     <img src="https://img.shields.io/badge/Email-Say%20Hi-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
@@ -131,8 +137,19 @@ MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=shahriarbd10&label=Profile%20Views&style=for-the-badge&color=0ea5e9">
 </div>
 
-<!-- ====== FOOTER WAVE ====== -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0ea5e9,100:a855f7&section=footer" />
-  <img alt="Footer wave" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0ea5e9,100:a855f7&section=footer" />
-</picture>
+---
+
+<!-- ====== RELIABLE INLINE SVG FOOTER (fallback) ====== -->
+<div align="center">
+  <svg width="100%" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer wave">
+    <defs>
+      <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+        <stop stop-color="#0ea5e9" offset="0%"/>
+        <stop stop-color="#a855f7" offset="100%"/>
+      </linearGradient>
+      <filter id="blur"><feGaussianBlur in="SourceGraphic" stdDeviation="2"/></filter>
+    </defs>
+    <path d="M0,80 C150,120 350,40 600,80 C850,120 1050,50 1200,90 L1200,140 L0,140 Z" fill="url(#g)" filter="url(#blur)" opacity="0.85"/>
+    <path d="M0,90 C180,130 360,60 600,90 C840,120 1020,70 1200,100 L1200,140 L0,140 Z" fill="url(#g)" opacity="0.6"/>
+  </svg>
+</div>
