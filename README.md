@@ -1,36 +1,38 @@
 <!--
-README.md — Polished, high-impact GitHub Profile
-- Replace the email below with your real address.
-- External services used sparingly; inline SVG footer ensures reliability.
+README.md — High-impact GitHub Profile for shahriarbd10
+SEO notes:
+- Use your handle + name in headings and alt attributes.
+- Keep links to your portfolio and social profiles consistent across platforms.
+- Pinned repos + active contributions strengthen discoverability.
 -->
 
 <!-- ====== HEADER WAVE BANNER ====== -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,100:a855f7&text=Shahriar%20Hossain%20%28shahriarbd10%29&fontAlign=50&fontAlignY=35&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20IoT%20%26%20Cloud%20%E2%80%A2%20Node.js%20%26%20AWS&descAlign=50&descAlignY=62" />
-  <img alt="Header banner" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,100:a855f7&text=Shahriar%20Hossain%20%28shahriarbd10%29&fontAlign=50&fontAlignY=35&fontSize=44&fontColor=0e1116&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20IoT%20%26%20Cloud%20%E2%80%A2%20Node.js%20%26%20AWS&descAlign=50&descAlignY=62" />
+  <img alt="Shahriar Hossain (shahriarbd10) — Full-Stack Developer, IoT & Cloud" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,100:a855f7&text=Shahriar%20Hossain%20%28shahriarbd10%29&fontAlign=50&fontAlignY=35&fontSize=44&fontColor=0e1116&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20IoT%20%26%20Cloud%20%E2%80%A2%20Node.js%20%26%20AWS&descAlign=50&descAlignY=62" />
 </picture>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2600&pause=800&center=true&vCenter=true&width=980&lines=Building+real-time+IoT+dashboards+%26+cloud-native+apps;Designing+scalable+backends+with+Node.js+%26+AWS;Crafting+polished+React+frontends+with+great+UX)](https://github.com/DenverCoder1/readme-typing-svg)
+[![Typing SVG — Shahriar Hossain (shahriarbd10)](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2600&pause=800&center=true&vCenter=true&width=980&lines=Building+real-time+IoT+dashboards+%26+cloud-native+apps;Designing+scalable+backends+with+Node.js+%26+AWS;Crafting+polished+React+frontends+with+great+UX)](https://github.com/DenverCoder1/readme-typing-svg)
 
 <!-- Quick badges -->
-<img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-0ea5e9?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location"/>
-<a href="https://xfishery.com"><img src="https://img.shields.io/badge/Portfolio-xfishery.com-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
-<a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-0ea5e9?style=for-the-badge&logo=google-maps&logoColor=white" alt="Dhaka, Bangladesh — base of shahriarbd10"/>
+<a href="https://xfishery.com"><img src="https://img.shields.io/badge/Portfolio-xfishery.com-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio of Shahriar Hossain (shahriarbd10)"/></a>
+<a href="mailto:shahriarsgr@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Shahriar-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shahriar Hossain"/></a>
 
 </div>
 
 ---
 
-## 👋 Hi, I'm Shahriarbd10
+## 👋 Hi, I'm **Shahriar Hossain (shahriarbd10)**
 **Full-Stack Developer | IoT & Cloud Specialist | Node.js & AWS Expert**
 
-I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern web apps** with an eye for performance, reliability, and delightful UX.
+I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern web apps** focused on performance, reliability, and delightful UX.
 
-- 🔭 Focus: low-latency APIs, MQTT/WS telemetry, infra-as-code on AWS  
+- 🔭 Focus: low-latency APIs, MQTT/WebSocket telemetry, infra-as-code on AWS  
 - 🧭 Product mindset: clean design, frictionless flows, strong observability  
-- 🔒 Security: JWT/OAuth, rate-limits, secret hygiene, least-privilege IAM  
+- 🔒 Security: JWT/OAuth, rate limits, secret hygiene, least-privilege IAM  
 
 ---
 
@@ -38,13 +40,13 @@ I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern 
 <div align="center">
 
 <!-- Skill icons (auto dark/light) -->
-<img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,redux,express,tailwind,html,css,materialui,bootstrap,aws,docker,nginx,redis,mongodb,postgres,prisma,git,github,gitlab,linux,raspberrypi,arduino,figma,vscode&perline=13" alt="Tech stack icons"/>
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,redux,express,tailwind,html,css,materialui,bootstrap,aws,docker,nginx,redis,mongodb,postgres,prisma,git,github,gitlab,linux,raspberrypi,arduino,figma,vscode&perline=13" alt="Tech stack for shahriarbd10: JS, TS, Node.js, React, Next.js, Express, Tailwind, AWS, Docker, MongoDB, Postgres, Redis, Prisma, etc."/>
 
 <!-- Bonus tags -->
 <br/><br/>
-<img src="https://img.shields.io/badge/Realtime-IoT%20%E2%80%A2%20MQTT%20%E2%80%A2%20WebSockets-111827?style=for-the-badge" alt="Realtime"/>
-<img src="https://img.shields.io/badge/Cloud-AWS%20EC2%20%E2%80%A2%20S3%20%E2%80%A2%20Route53-111827?style=for-the-badge" alt="Cloud"/>
-<img src="https://img.shields.io/badge/Quality-CI%2FCD%20%E2%80%A2%20Tests%20%E2%80%A2%20Lint-111827?style=for-the-badge" alt="Quality"/>
+<img src="https://img.shields.io/badge/Realtime-IoT%20%E2%80%A2%20MQTT%20%E2%80%A2%20WebSockets-111827?style=for-the-badge" alt="Realtime IoT: MQTT, WebSockets"/>
+<img src="https://img.shields.io/badge/Cloud-AWS%20EC2%20%E2%80%A2%20S3%20%E2%80%A2%20Route53-111827?style=for-the-badge" alt="AWS EC2, S3, Route53"/>
+<img src="https://img.shields.io/badge/Quality-CI%2FCD%20%E2%80%A2%20Tests%20%E2%80%A2%20Lint-111827?style=for-the-badge" alt="Quality: CI/CD, tests, lint"/>
 
 </div>
 
@@ -57,9 +59,9 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
 **Stack:** Node.js • Express • React • WebSockets/MQTT • MongoDB • Docker • AWS EC2 + HTTPS  
 <div align="left">
   <a href="https://xfishery.com">
-    <img src="https://img.shields.io/badge/Live%20Demo-xfishery.com-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live demo"/>
+    <img src="https://img.shields.io/badge/Live%20Demo-xfishery.com-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Xfishery live demo by shahriarbd10"/>
   </a>
-  <img src="https://img.shields.io/badge/Status-Production-22c55e?style=for-the-badge" alt="Status: Production"/>
+  <img src="https://img.shields.io/badge/Status-Production-22c55e?style=for-the-badge" alt="Production status"/>
 </div>
 
 ---
@@ -67,7 +69,7 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
 ### 🔹 MediTrack Pharmacy Inventory System
 MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.  
 <a href="https://github.com/shahriarbd10/meditrack-v1">
-  <img alt="MediTrack pinned card" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true"/>
+  <img alt="MediTrack pinned card — repo by shahriarbd10" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true"/>
 </a>
 
 <details>
@@ -94,39 +96,84 @@ MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.
 <table>
   <tr>
     <td>
-      <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=shahriarbd10&show_icons=true&theme=radical&hide_border=true&border_radius=12" />
+      <img alt="GitHub stats for shahriarbd10" src="https://github-readme-stats.vercel.app/api?username=shahriarbd10&show_icons=true&theme=radical&hide_border=true&border_radius=12" />
     </td>
     <td>
-      <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarbd10&layout=compact&theme=radical&hide_border=true&border_radius=12" />
+      <img alt="Top languages used by shahriarbd10" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarbd10&layout=compact&theme=radical&hide_border=true&border_radius=12" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=shahriarbd10&theme=radical&hide_border=true&border_radius=12" />
+      <img alt="GitHub streak for shahriarbd10" src="https://streak-stats.demolab.com?user=shahriarbd10&theme=radical&hide_border=true&border_radius=12" />
     </td>
   </tr>
 </table>
 
-<!-- Optional trophy wall -->
-<img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=shahriarbd10&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=-1" />
+<!-- Inline Achievements (reliable; replaces flaky trophy image services) -->
+<div align="center">
+  <svg width="980" height="128" viewBox="0 0 980 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Achievements of shahriarbd10">
+    <defs>
+      <linearGradient id="grad" x1="0" x2="1" y1="0" y2="0">
+        <stop stop-color="#0ea5e9" offset="0%"/>
+        <stop stop-color="#a855f7" offset="100%"/>
+      </linearGradient>
+      <style>
+        .card { fill:#0b1220; stroke:url(#grad); stroke-width:1.5; rx:14; ry:14; }
+        .icon { fill:url(#grad); }
+        .label { fill:#e5e7eb; font:600 14px/1 Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+        .sub { fill:#9ca3af; font:500 12px/1 Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+      </style>
+      <g id="trophy">
+        <path class="icon" d="M20 10h40v10h12c1 0 2 1 2 2v8c0 10-8 18-18 18h-8c-2 4-6 7-10 8v6h14v10H18V62h14v-6c-4-1-8-4-10-8H14C4 48-4 40-4 30v-8c0-1 1-2 2-2H10V10h10zm0 10v10h-8v4c0 6 4 10 10 10h6c2-4 6-7 10-8V20H20zm40 0H50v16c4 1 8 4 10 8h6c6 0 10-4 10-10v-4H60V20z"/>
+      </g>
+    </defs>
+
+    <rect class="card" x="10"  y="12" width="230" height="104"/>
+    <use href="#trophy" x="30" y="20"/>
+    <text class="label" x="90" y="58">Open-Source</text>
+    <text class="sub"   x="90" y="80">Active repos, PRs & issues</text>
+
+    <rect class="card" x="250" y="12" width="230" height="104"/>
+    <use href="#trophy" x="270" y="20"/>
+    <text class="label" x="330" y="58">Cloud & IoT</text>
+    <text class="sub"   x="330" y="80">MQTT, WS, AWS deployments</text>
+
+    <rect class="card" x="490" y="12" width="230" height="104"/>
+    <use href="#trophy" x="510" y="20"/>
+    <text class="label" x="570" y="58">Frontend Polish</text>
+    <text class="sub"   x="570" y="80">React, UX, accessibility</text>
+
+    <rect class="card" x="730" y="12" width="240" height="104"/>
+    <use href="#trophy" x="750" y="20"/>
+    <text class="label" x="810" y="58">Reliability</text>
+    <text class="sub"   x="810" y="80">CI/CD, lint, health checks</text>
+  </svg>
+</div>
 
 </div>
+
+---
+
+## 🧭 About **shahriarbd10**
+I’m **Shahriar Hossain (shahriarbd10)**, a Full-Stack Developer from **Dhaka, Bangladesh**. I build **Node.js + React** products, real-time **IoT dashboards**, and **AWS-backed** services. Explore my work on **GitHub: @shahriarbd10** and **Portfolio: xfishery.com**.
+
+**Keywords:** shahriarbd10, Shahriar Hossain, Full-Stack Developer, Node.js, React, MERN, AWS, IoT, Bangladesh, xfishery
 
 ---
 
 ## 🤝 Connect
 <div align="center">
   <a href="https://www.linkedin.com/in/shahriarhossain/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn — Shahriar Hossain (shahriarbd10)"/>
   </a>
   <a href="https://github.com/shahriarbd10">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile of shahriarbd10"/>
   </a>
   <a href="https://xfishery.com">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-00A0E3?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-Visit-00A0E3?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit portfolio xfishery.com"/>
   </a>
   <a href="mailto:shahriarsgr@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Say%20Hi-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-Say%20Hi-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shahriar"/>
   </a>
 </div>
 
@@ -134,14 +181,14 @@ MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.
 
 ## 👀 Visitor Count
 <div align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=shahriarbd10&label=Profile%20Views&style=for-the-badge&color=0ea5e9">
+  <img alt="Profile views counter for shahriarbd10" src="https://komarev.com/ghpvc/?username=shahriarbd10&label=Profile%20Views&style=for-the-badge&color=0ea5e9">
 </div>
 
 ---
 
 <!-- ====== RELIABLE INLINE SVG FOOTER (fallback) ====== -->
 <div align="center">
-  <svg width="100%" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer wave">
+  <svg width="100%" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer wave for shahriarbd10">
     <defs>
       <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
         <stop stop-color="#0ea5e9" offset="0%"/>
