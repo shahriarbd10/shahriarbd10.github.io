@@ -1,6 +1,6 @@
 <!--
 GitHub Profile README for shahriarbd10
-- Inline SVG header + achievements with NO <style> tags (avoids leaking text).
+- Inline SVG header + achievements with NO <style> tags (GitHub sanitizes them).
 - MediTrack uses pin card only; description is pulled from repo settings.
 -->
 
@@ -66,9 +66,9 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
 
 ### 🔹 MediTrack Pharmacy Inventory System
 <a href="https://github.com/shahriarbd10/meditrack-v1">
-  <img alt="MediTrack pinned card — repo by shahriarbd10" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true&cache_seconds=7200&v=2"/>
+  <img alt="MediTrack pinned card — repo by shahriarbd10" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true"/>
 </a>
-<!-- The pin card auto-loads your repo description; set it in the repo About. -->
+<!-- The pin card auto-loads your repo description; set it in the repo settings. -->
 
 ---
 
@@ -112,7 +112,7 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
     </g>
   </defs>
 
-  <rect x="10"  y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
+  <rect x="10" y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
   <use href="#trophy" x="30" y="20"/>
   <text x="90" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Open-Source</text>
   <text x="90" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Active repos, PRs &amp; issues</text>
