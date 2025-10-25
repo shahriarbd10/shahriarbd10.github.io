@@ -1,7 +1,7 @@
 <!--
 GitHub Profile README for shahriarbd10
-- Header uses ONLY safe SVG tags (no <style>, no <filter>) so nothing leaks as plain text.
-- MediTrack uses the pin card only; its description is pulled from the repo settings.
+- Inline SVG header + achievements with NO <style> tags (avoids leaking text).
+- MediTrack uses pin card only; its description is pulled from the repo settings.
 -->
 
 <!-- ====== CLEAN INLINE SVG HEADER (GitHub-safe) ====== -->
@@ -32,11 +32,11 @@ GitHub Profile README for shahriarbd10
 ## 👋 Hi, I'm **Shahriar Hossain (shahriarbd10)**
 **Full-Stack Developer | IoT & Cloud Specialist | Node.js & AWS Expert**
 
-I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern web apps** focused on performance, reliability, and delightful UX.
+I develop **high-performance software**, build **scalable cloud solutions**, and craft **modern web applications**. My focus is on creating robust systems with clean code, smooth UX, and advanced real-time capabilities.
 
-- 🔭 Focus: low-latency APIs, MQTT/WebSocket telemetry, infra-as-code on AWS  
-- 🧭 Product mindset: clean design, frictionless flows, strong observability  
-- 🔒 Security: JWT/OAuth, rate limits, secret hygiene, least-privilege IAM  
+- 🔭 **Focus:** Building low-latency **APIs**, **real-time data synchronization**, and **cloud-native applications**  
+- 🧭 **Product mindset:** Clean design, frictionless user experiences, and strong observability for easy debugging  
+- 🔒 **Security:** Implementing **JWT/OAuth**, **rate-limits**, **secrets hygiene**, and **least-privilege IAM**  
 
 ---
 
@@ -55,7 +55,7 @@ I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern 
 ## 🚀 Featured Projects
 
 ### 🔹 Xfishery Sensor & User Dashboard
-Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting & analytics.  
+Real-time aquaculture monitoring system: **pH**, **temperature**, **ammonia**, and **DO** with alerting & analytics.  
 **Stack:** Node.js • Express • React • WebSockets/MQTT • MongoDB • Docker • AWS EC2 + HTTPS  
 <div>
   <a href="https://xfishery.com">
@@ -67,10 +67,10 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
 ---
 
 ### 🔹 MediTrack Pharmacy Inventory System
+A lightweight **MERN** SaaS for pharmacies: **stock tracking**, **invoicing**, **role-based access**, and clean dashboards.  
 <a href="https://github.com/shahriarbd10/meditrack-v1">
   <img alt="MediTrack pinned card — repo by shahriarbd10" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true&cache_seconds=7200&v=4"/>
 </a>
-<!-- The pin card auto-loads your repo description; set it in the repo About. -->
 
 ---
 
