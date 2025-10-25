@@ -74,35 +74,24 @@ A lightweight **MERN** SaaS for pharmacies: **stock tracking**, **invoicing**, *
 
 ---
 
-## 🧩 UX Principles I Care About
-- **Fast**: edge caching, compression, bundle-splitting  
-- **Reliable**: typed APIs, health checks, graceful fallbacks  
-- **Accessible**: semantic HTML, keyboard nav, color-contrast, ARIA  
-- **Beautiful**: consistent spacing, modern type, micro-interactions  
-
----
-
 ## **Statistics**
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img alt="GitHub stats for shahriarbd10" src="https://github-readme-stats.vercel.app/api?username=shahriarbd10&show_icons=true&theme=radical&hide_border=true&border_radius=12" />
-      </td>
-      <td>
-        <img alt="Top languages used by shahriarbd10" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarbd10&layout=compact&theme=radical&hide_border=true&border_radius=12" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img alt="GitHub streak for shahriarbd10" src="https://streak-stats.demolab.com?user=shahriarbd10&theme=radical&hide_border=true&border_radius=12" />
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+<!-- BEGIN STREAK -->
+<img src="https://github-readme-streak-stats.demolab.com?user=shahriarbd10&theme=radical&hide_border=true&border_radius=12" alt="GitHub streak for shahriarbd10"/>
+<!-- END STREAK -->
 
-<!-- Optional Trophies -->
-<img alt="GitHub Trophies for shahriarbd10" src="https://github-profile-trophy.vercel.app/?username=shahriarbd10&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=-1" />
+<!-- BEGIN STATS -->
+<img src="https://github-readme-stats.vercel.app/api/?username=shahriarbd10&count_private=true&show_icons=true&include_all_commits=true&custom_title=GitHub%20Stats&rank_icon=percentile" alt="GitHub stats for shahriarbd10"/>
+<!-- END STATS -->
+
+<!-- BEGIN LANGUAGES -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarbd10&layout=compact&theme=radical&hide_border=true&border_radius=12" alt="Top languages used by shahriarbd10"/>
+<!-- END LANGUAGES -->
+
+<!-- BEGIN WAKATIME -->
+<img src="https://github-readme-stats.vercel.app/api/wakatime/?username=shahriarbd10&layout=compact&display_format=time&langs_count=4&custom_title=Time%20Spent" alt="Time spent coding"/>
+<!-- END WAKATIME -->
+</p>
 
 ---
 
