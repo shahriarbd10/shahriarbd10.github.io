@@ -84,6 +84,8 @@ A lightweight **MERN** SaaS for pharmacies: **stock tracking**, **invoicing**, *
 
 ## 📊 Open-Source & Activity
 <div align="center">
+
+<!-- GitHub Stats + Current Streak -->
 <table>
   <tr>
     <td>
@@ -99,6 +101,9 @@ A lightweight **MERN** SaaS for pharmacies: **stock tracking**, **invoicing**, *
     </td>
   </tr>
 </table>
+
+<!-- Optional Trophies -->
+<img alt="GitHub Trophies for shahriarbd10" src="https://github-profile-trophy.vercel.app/?username=shahriarbd10&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=-1" />
 </div>
 
 <!-- ====== INLINE ACHIEVEMENTS (GitHub-safe) ====== -->
