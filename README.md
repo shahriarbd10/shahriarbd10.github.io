@@ -145,7 +145,7 @@ I’m **Shahriar Hossain (shahriarbd10)**, a Full-Stack Developer from **Dhaka, 
 
 ## 🤝 Connect
 <div align="center">
-  <a href="https://www.linkedin.com/in/shahriarhossain/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn — Shahriar Hossain (shahriarbd10)"/></a>
+  <a href="https://www.linkedin.com/in/shahriarbd10/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn — Shahriar Hossain (shahriarbd10)"/></a>
   <a href="https://github.com/shahriarbd10"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile of shahriarbd10"/></a>
   <a href="https://xfishery.com"><img src="https://img.shields.io/badge/Portfolio-Visit-00A0E3?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit portfolio xfishery.com"/></a>
   <a href="mailto:shahriarsgr@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hi-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shahriar"/></a>
