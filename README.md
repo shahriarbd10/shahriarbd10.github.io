@@ -62,13 +62,10 @@ I am a **Full-Stack Developer from Dhaka, Bangladesh** specializing in **Node.js
 
 ---
 
-## 📊 GitHub Analytics (Stylish)
+## 📊 GitHub Analytics
 <p align="center">
   <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarbd10&layout=compact&theme=radical" alt="Top Languages"/>
-
-  <!-- Contribution Heatmap -->
-  <img src="https://activity-graph.herokuapp.com/graph?username=shahriarbd10&theme=react-dark&hide_border=true" alt="Contribution Graph"/>
 
   <!-- Streak Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=shahriarbd10&theme=radical&hide_border=true" alt="GitHub Streak"/>
