@@ -1,10 +1,10 @@
 <!--
 GitHub Profile README for shahriarbd10
-- Inline SVG header + achievements (no flaky external images).
+- Inline SVG header + achievements with NO <style> tags (GitHub sanitizes them).
 - MediTrack uses pin card only; description is pulled from repo settings.
 -->
 
-<!-- ====== INLINE SVG HEADER ====== -->
+<!-- ====== INLINE SVG HEADER (no <style>) ====== -->
 <div align="center">
 <svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shahriar Hossain (shahriarbd10) — Full-Stack Developer, IoT & Cloud" style="width:100%;height:auto;max-height:220px;display:block;">
   <defs>
@@ -12,15 +12,11 @@ GitHub Profile README for shahriarbd10
       <stop stop-color="#0ea5e9" offset="0%"/>
       <stop stop-color="#a855f7" offset="100%"/>
     </linearGradient>
-    <style>
-      .title { fill:#ffffff; font:700 34px/1 Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
-      .desc  { fill:#e5e7eb; font:500 16px/1 Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
-    </style>
   </defs>
   <rect x="0" y="0" width="1200" height="220" fill="url(#headerGrad)"/>
   <path d="M0,150 C250,190 450,110 700,150 C950,190 1100,120 1200,160 L1200,220 L0,220 Z" fill="rgba(255,255,255,0.12)"/>
-  <text class="title" x="50%" y="42%" text-anchor="middle">Shahriar Hossain (shahriarbd10)</text>
-  <text class="desc"  x="50%" y="63%" text-anchor="middle">Full-Stack Developer • IoT & Cloud • Node.js & AWS</text>
+  <text x="50%" y="42%" text-anchor="middle" fill="#ffffff" font-weight="700" font-size="34" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Shahriar Hossain (shahriarbd10)</text>
+  <text x="50%" y="63%" text-anchor="middle" fill="#e5e7eb" font-weight="500" font-size="16" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Full-Stack Developer • IoT & Cloud • Node.js & AWS</text>
 </svg>
 </div>
 
@@ -103,7 +99,7 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
 </table>
 </div>
 
-<!-- ====== INLINE ACHIEVEMENTS (kept entirely inside an SVG) ====== -->
+<!-- ====== INLINE ACHIEVEMENTS (no <style>) ====== -->
 <div align="center">
 <svg viewBox="0 0 980 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Achievements of shahriarbd10" style="max-width:980px;width:100%;height:auto;display:block;">
   <defs>
@@ -111,36 +107,30 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
       <stop stop-color="#0ea5e9" offset="0%"/>
       <stop stop-color="#a855f7" offset="100%"/>
     </linearGradient>
-    <style>
-      .card { fill:#0b1220; stroke:url(#grad); stroke-width:1.5; rx:14; ry:14; }
-      .icon { fill:url(#grad); }
-      .label { fill:#e5e7eb; font:600 14px/1 Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
-      .sub { fill:#9ca3af; font:500 12px/1 Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
-    </style>
     <g id="trophy">
-      <path class="icon" d="M20 10h40v10h12c1 0 2 1 2 2v8c0 10-8 18-18 18h-8c-2 4-6 7-10 8v6h14v10H18V62h14v-6c-4-1-8-4-10-8H14C4 48-4 40-4 30v-8c0-1 1-2 2-2H10V10h10zm0 10v10h-8v4c0 6 4 10 10 10h6c2-4 6-7 10-8V20H20zm40 0H50v16c4 1 8 4 10 8h6c6 0 10-4 10-10v-4H60V20z"/>
+      <path fill="url(#grad)" d="M20 10h40v10h12c1 0 2 1 2 2v8c0 10-8 18-18 18h-8c-2 4-6 7-10 8v6h14v10H18V62h14v-6c-4-1-8-4-10-8H14C4 48-4 40-4 30v-8c0-1 1-2 2-2H10V10h10zm0 10v10h-8v4c0 6 4 10 10 10h6c2-4 6-7 10-8V20H20zm40 0H50v16c4 1 8 4 10 8h6c6 0 10-4 10-10v-4H60V20z"/>
     </g>
   </defs>
 
-  <rect class="card" x="10"  y="12" width="230" height="104"/>
+  <rect x="10" y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
   <use href="#trophy" x="30" y="20"/>
-  <text class="label" x="90" y="58">Open-Source</text>
-  <text class="sub"   x="90" y="80">Active repos, PRs & issues</text>
+  <text x="90" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Open-Source</text>
+  <text x="90" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Active repos, PRs &amp; issues</text>
 
-  <rect class="card" x="250" y="12" width="230" height="104"/>
+  <rect x="250" y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
   <use href="#trophy" x="270" y="20"/>
-  <text class="label" x="330" y="58">Cloud & IoT</text>
-  <text class="sub"   x="330" y="80">MQTT, WS, AWS deployments</text>
+  <text x="330" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Cloud &amp; IoT</text>
+  <text x="330" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">MQTT, WS, AWS deployments</text>
 
-  <rect class="card" x="490" y="12" width="230" height="104"/>
+  <rect x="490" y="12" width="230" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
   <use href="#trophy" x="510" y="20"/>
-  <text class="label" x="570" y="58">Frontend Polish</text>
-  <text class="sub"   x="570" y="80">React, UX, accessibility</text>
+  <text x="570" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Frontend Polish</text>
+  <text x="570" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">React, UX, accessibility</text>
 
-  <rect class="card" x="730" y="12" width="240" height="104"/>
+  <rect x="730" y="12" width="240" height="104" fill="#0b1220" stroke="url(#grad)" stroke-width="1.5" rx="14" ry="14"/>
   <use href="#trophy" x="750" y="20"/>
-  <text class="label" x="810" y="58">Reliability</text>
-  <text class="sub"   x="810" y="80">CI/CD, lint, health checks</text>
+  <text x="810" y="58" fill="#e5e7eb" font-weight="600" font-size="14" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">Reliability</text>
+  <text x="810" y="80" fill="#9ca3af" font-weight="500" font-size="12" font-family="Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">CI/CD, lint, health checks</text>
 </svg>
 </div>
 
