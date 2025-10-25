@@ -14,7 +14,9 @@ SEO notes:
 
 <div align="center">
 
-[![Typing SVG — Shahriar Hossain (shahriarbd10)](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2600&pause=800&center=true&vCenter=true&width=980&lines=Building+real-time+IoT+dashboards+%26+cloud-native+apps;Designing+scalable+backends+with+Node.js+%26+AWS;Crafting+polished+React+frontends+with+great+UX)](https://github.com/DenverCoder1/readme-typing-svg)
+<a href="https://github.com/DenverCoder1/readme-typing-svg">
+<img alt="Typing banner — Shahriar Hossain (shahriarbd10)" src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2600&pause=800&center=true&vCenter=true&width=980&lines=Building+real-time+IoT+dashboards+%26+cloud-native+apps;Designing+scalable+backends+with+Node.js+%26+AWS;Crafting+polished+React+frontends+with+great+UX">
+</a>
 
 <!-- Quick badges -->
 <img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-0ea5e9?style=for-the-badge&logo=google-maps&logoColor=white" alt="Dhaka, Bangladesh — base of shahriarbd10"/>
@@ -67,7 +69,7 @@ Real-time aquaculture monitoring: **pH, temperature, ammonia, DO** with alerting
 ---
 
 ### 🔹 MediTrack Pharmacy Inventory System
-MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.  
+A lightweight **MERN SaaS** for pharmacies: **stock tracking, invoicing, role-based access**, and clean dashboards. Built for reliability and ease of use.
 <a href="https://github.com/shahriarbd10/meditrack-v1">
   <img alt="MediTrack pinned card — repo by shahriarbd10" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=meditrack-v1&theme=radical&border_radius=12&hide_border=true"/>
 </a>
