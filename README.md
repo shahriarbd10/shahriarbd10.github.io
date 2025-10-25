@@ -56,7 +56,7 @@
 ---
 
 ## 👀 Visitor Count
-![Visitor Count](https://profile-counter.glitch.me/shahriarhossain/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/shahriarbd10/count.svg)
 
 ---
 
