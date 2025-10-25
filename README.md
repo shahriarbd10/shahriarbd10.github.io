@@ -28,12 +28,12 @@
 - Real-time IoT sensor monitoring (pH, temperature, ammonia, oxygen)  
 - Integrated with custom domain and HTTPS SSL  
 
-### [Pharmacy Management System](https://github.com/shahriarhossain/pharmacy-inventory)
+### [Pharmacy Management System](https://github.com/shahriarbd10/pharmacy-inventory)
 - MERN stack SaaS application  
 - Multi-user management (Admin + Pharmacy users)  
 - Inventory & invoice automation  
 
-### [Clinic Appointment Booking System](https://github.com/shahriarhossain/clinic-booking)
+### [Clinic Appointment Booking System](https://github.com/shahriarbd10/clinic-booking)
 - Full-stack web app with Node.js & MongoDB  
 - Doctors & patients management, appointment scheduling  
 - Responsive and user-friendly interface  
@@ -42,21 +42,21 @@
 
 ## 📫 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahriarhossain/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahriarhossain)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahriarbd10)
 [![Portfolio](https://img.shields.io/badge/Portfolio-00A0E3?style=for-the-badge&logo=google-chrome&logoColor=white)](https://xfishery.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 
 ---
 
 ## 📊 GitHub Stats
-![Shahriar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shahriarhossain&show_icons=true&theme=radical)
+![Shahriar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shahriarbd10&show_icons=true&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarhossain&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarbd10&layout=compact&theme=radical)
 
 ---
 
 ## 👀 Visitor Count
-![Visitor Count](https://profile-counter.glitch.me/shahriarbd10/count.svg)
+![GitHub hits](https://hits.sh/github.shahriarbd10.svg)
 
 ---
 
