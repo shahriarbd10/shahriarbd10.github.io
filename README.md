@@ -53,7 +53,7 @@ I craft **real-time IoT dashboards**, **scalable cloud services**, and **modern 
 
 ## 🚀 Featured Projects
 
-### 🔹 Xfishery Sensor Dashboard
+### 🔹 Xfishery and User Dashboard
 Real-time monitoring for aquaculture: **pH, temperature, ammonia, DO** with alerting and analytics.  
 **Stack:** Node.js • Express • React • WebSockets/MQTT • MongoDB • Docker • AWS EC2 + HTTPS  
 <div align="left">
@@ -65,9 +65,9 @@ Real-time monitoring for aquaculture: **pH, temperature, ammonia, DO** with aler
 
 ---
 
-### 🔹 Pharmacy Management System
+### 🔹 MediTrack Pharmacy Inventory System
 MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.  
-<a href="https://github.com/shahriarbd10/pharmacy-inventory">
+<a href="[https://github.com/shahriarbd10/pharmacy-inventory](https://github.com/shahriarbd10/meditrack-v1.git)">
   <img alt="Pharmacy pinned card" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=pharmacy-inventory&theme=radical&border_radius=12&hide_border=true"/>
 </a>
 
