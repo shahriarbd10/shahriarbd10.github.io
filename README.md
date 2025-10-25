@@ -67,7 +67,7 @@ Real-time monitoring for aquaculture: **pH, temperature, ammonia, DO** with aler
 
 ### 🔹 MediTrack Pharmacy Inventory System
 MERN SaaS for inventory, invoices, and multi-tenant admin/user workflows.  
-<a href="[https://github.com/shahriarbd10/pharmacy-inventory](https://github.com/shahriarbd10/meditrack-v1.git)">
+<a href="https://github.com/shahriarbd10/meditrack-v1.git">
   <img alt="Pharmacy pinned card" src="https://github-readme-stats.vercel.app/api/pin/?username=shahriarbd10&repo=pharmacy-inventory&theme=radical&border_radius=12&hide_border=true"/>
 </a>
 
