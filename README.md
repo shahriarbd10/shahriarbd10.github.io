@@ -1,5 +1,5 @@
 <!-- 🌐 Profile README for shahriarbd10 -->
-<!-- Clean, human-aligned, and professional design with glowing dividers -->
+<!-- Clean, professional, and technology-focused -->
 
 <div align="center">
   <svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shahriar Hossain (shahriarbd10) — Full Stack Developer | Tech Enthusiast | Cloud Learner" style="width:100%;height:auto;max-height:220px;">
@@ -17,31 +17,32 @@
   </svg>
 </div>
 
-<!-- Header Badge Panel with Glowing Dividers -->
+<!-- Elegant glowing divider between header and badges -->
+<div align="center" style="height:2px;width:70%;margin:10px auto 20px;background:linear-gradient(90deg,#0ea5e9,#a855f7,#0ea5e9);border-radius:4px;box-shadow:0 0 12px rgba(168,85,247,0.6);"></div>
+
+<!-- Header Badge Panel -->
 <div align="center" style="margin-top:10px;">
   <img src="https://img.shields.io/badge/LOCATION-DHAKA%2C%20BANGLADESH-38bdf8?style=for-the-badge&logo=google-maps&logoColor=white"/>
-  <span style="display:inline-block;width:2px;height:25px;background:linear-gradient(180deg,#a855f7,#0ea5e9);margin:0 6px;border-radius:4px;box-shadow:0 0 8px #a855f7;"></span>
   <a href="https://shahriarbd10.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-shahriarbd10.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
-  <span style="display:inline-block;width:2px;height:25px;background:linear-gradient(180deg,#a855f7,#0ea5e9);margin:0 6px;border-radius:4px;box-shadow:0 0 8px #a855f7;"></span>
   <a href="mailto:shahriarsgr@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT-ef4444?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </div>
 
 ---
 
 ## 👨‍💻 About Me
-Hi! I’m **Shahriar Hossain**, a passionate **Full Stack Developer** and **tech enthusiast** who loves turning ideas into real, working applications.  
-Curious by nature, I enjoy exploring new technologies — whether it’s **frontend design**, **backend logic**, or **cloud integration**.
+Hi! I’m **Shahriar Hossain**, a passionate **Full Stack Developer** and **Tech Enthusiast** who loves exploring how technology solves real-world problems.  
+I enjoy experimenting with **frontend creativity**, **backend logic**, and **cloud automation**, always learning something new every day.
 
 ### 🚀 Currently Working On
-- Upgrading **MediTrack SaaS** with advanced analytics and secure multi-tenant access  
-- Building **Xfishery Dashboard** for real-time data visualization and improved scalability  
+- Enhancing **MediTrack SaaS** with analytics and secure multi-tenant architecture  
+- Optimizing **Xfishery Dashboard** for smoother real-time visualization and better performance  
 
 ### 🌱 Always Exploring
 - Next.js 15 · Edge Functions · TypeScript  
-- AWS Automation · Flutter & Dart · API Design Patterns  
+- Python · Flutter · Dart · AWS automation  
 
 ### 💡 Focus
-To build efficient, scalable, and modern software — with a clean architecture and smooth user experience.
+Building modern, scalable, and maintainable applications that balance design, performance, and simplicity.
 
 ---
 
@@ -69,7 +70,7 @@ A SaaS web app that helps pharmacies manage inventory, sales, and dashboards wit
 
 ### ⚖️ [Lex.Ai Legal Assistant](#)  
 An AI-powered assistant that helps automate legal workflows and templates for professionals.  
-**Role:** Co-Founder — developing backend automation and integrating conversational logic.  
+**Role:** Co-Founder — developing backend automation and conversational logic.  
 *(Currently in prototype development)*  
 
 ---
@@ -97,13 +98,13 @@ An AI-powered assistant that helps automate legal workflows and templates for pr
 - Built full-stack dashboards combining **performance and modern UI/UX**  
 - Integrated **ESP32 sensors** into real-time data systems  
 - Serving as **CTO at Xfishery**, managing cloud and data architecture design  
-- **Co-Founder at Lex.Ai**, developing API automation and AI workflows (prototype stage)  
-- Always curious and eager to explore new technologies and solve real-world problems  
+- **Co-Founder at Lex.Ai**, developing API automation and AI workflows *(prototype stage)*  
+- Constantly exploring emerging tech and solving problems through creative development  
 
 ---
 
 ## 💬 Philosophy
-> “Curiosity drives innovation — every line of code is a step toward solving something new.”  
+> “Curiosity turns ideas into innovation — every bug fixed is one step closer to mastery.”  
 > — **Shahriar Hossain**
 
 ---
