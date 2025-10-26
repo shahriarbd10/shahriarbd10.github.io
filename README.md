@@ -1,5 +1,5 @@
-<!-- Profile README for shahriarbd10 -->
-<!-- Clean, professional, and curiosity-driven developer theme -->
+<!-- shahriarbd10 -->
+<!-- Let's start  -->
 
 <div align="center">
   <svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shahriar Hossain (shahriarbd10) — Full Stack Developer | Tech Enthusiast" style="width:100%;height:auto;max-height:220px;">
@@ -17,15 +17,11 @@
   </svg>
 </div>
 
-<!-- ✨ Stylish gradient divider between title and badges -->
-<div align="center" style="height:2px;width:75%;margin:-10px auto 20px;background:linear-gradient(90deg,#0ea5e9,#a855f7,#0ea5e9);border-radius:4px;box-shadow:0 0 12px rgba(168,85,247,0.6);"></div>
-
 <div align="center">
   <img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-0ea5e9?style=for-the-badge&logo=google-maps&logoColor=white"/>
   <a href="https://shahriarbd10.github.io"><img src="https://img.shields.io/badge/Portfolio-shahriarbd10.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
   <a href="mailto:shahriarsgr@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-ef4444?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </div>
-
 
 ---
 
@@ -102,7 +98,7 @@ An AI-driven chatbot designed to assist professionals with legal workflow automa
 ---
 
 ## 💬 Philosophy
-> “Curiosity fuels creation — every challenge is a new opportunity to innovate.”  
+> “Curiosity fuels creation - every challenge is a new opportunity to innovate.”  
 > – Shahriar Hossain  
 
 ---
