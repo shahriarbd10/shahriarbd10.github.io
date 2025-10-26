@@ -10,8 +10,11 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
     body { background-color: #0f172a; color: #e2e8f0; line-height: 1.6; }
-    header { text-align: center; padding: 60px 20px 40px; position: relative; overflow: hidden; }
+    header { text-align: center; padding: 60px 20px 20px; position: relative; overflow: hidden; }
     svg { width: 100%; height: auto; max-height: 220px; display: block; }
+    nav { text-align: center; margin-top: 20px; }
+    nav a { color: #38bdf8; margin: 0 12px; text-decoration: none; font-weight: 600; transition: color 0.3s; }
+    nav a:hover { color: #a855f7; }
     h1 { font-size: 2.4rem; margin-top: 10px; color: #fff; font-weight: 800; }
     h2 { font-size: 1.6rem; margin: 40px 0 10px; color: #a5b4fc; font-weight: 700; text-align: center; }
     p { max-width: 900px; margin: 10px auto; text-align: center; color: #cbd5e1; }
@@ -22,9 +25,9 @@
     .projects { display: flex; flex-direction: column; align-items: center; gap: 40px; }
     .project-card { background: rgba(255,255,255,0.05); border-radius: 16px; padding: 20px; max-width: 850px; width: 100%; transition: 0.3s; }
     .project-card:hover { background: rgba(255,255,255,0.08); transform: translateY(-3px); }
+    a.btn { display: inline-block; margin-top: 12px; background: linear-gradient(90deg,#0ea5e9,#a855f7); color: #fff; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: 0.3s; }
+    a.btn:hover { opacity: 0.85; }
     footer { text-align: center; padding: 30px 0; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 40px; font-size: 0.9rem; color: #94a3b8; }
-    a { color: #38bdf8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -42,6 +45,13 @@
       <text x="50%" y="145" text-anchor="middle" fill="#f1f5f9" font-weight="600" font-size="18">(shahriarbd10)</text>
       <text x="50%" y="175" text-anchor="middle" fill="#e2e8f0" font-weight="500" font-size="16">Full-Stack Developer • IoT & Cloud • Node.js & AWS</text>
     </svg>
+
+    <nav>
+      <a href="index.html">🏠 Home</a>
+      <a href="projects.html">💼 Projects</a>
+      <a href="contact.html">📬 Contact</a>
+    </nav>
+
     <div class="badges">
       <img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-0ea5e9?style=for-the-badge&logo=google-maps&logoColor=white" alt="Dhaka, Bangladesh" />
       <a href="https://xfishery.com"><img src="https://img.shields.io/badge/Portfolio-xfishery.com-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
@@ -66,17 +76,19 @@
     <h2>🚀 Featured Projects</h2>
     <div class="projects">
       <div class="project-card">
-        <h3>🔹 Xfishery Sensor & User Dashboard</h3>
+        <h3>🐟 Xfishery Sensor & User Dashboard</h3>
         <p>Real-time aquaculture monitoring system for pH, temperature, ammonia, and DO with alerting & analytics.</p>
         <p><strong>Stack:</strong> Node.js • React • WebSockets/MQTT • MongoDB • Docker • AWS EC2</p>
-        <a href="https://xfishery.com">🌐 Live Demo</a>
+        <a href="https://xfishery.com" class="btn">🌐 Live Demo</a>
       </div>
 
       <div class="project-card">
-        <h3>🔹 MediTrack Pharmacy Inventory System</h3>
+        <h3>💊 MediTrack Pharmacy Inventory System</h3>
         <p>A lightweight MERN SaaS for pharmacies: stock tracking, invoicing, role-based access, and clean dashboards.</p>
-        <a href="https://github.com/shahriarbd10/meditrack-v1">📁 View on GitHub</a>
+        <a href="https://github.com/shahriarbd10/meditrack-v1" class="btn">📁 View on GitHub</a>
       </div>
+
+      <a href="projects.html" class="btn">➡️ View All Projects</a>
     </div>
   </section>
 
@@ -98,7 +110,7 @@
   </section>
 
   <footer>
-    © 2025 Shahriar Hossain (shahriarbd10) — Built with 💙 using HTML & CSS
+    <p>Made with 💙 by <strong>Shahriar Hossain</strong> — <a href="contact.html">Contact Me</a></p>
   </footer>
 </body>
 </html>
