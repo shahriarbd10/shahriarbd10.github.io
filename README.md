@@ -1,3 +1,5 @@
+
+<meta name="google-site-verification" content="8hE2eo79T1aU-W4q8_TLlK0TmCtFiWO-TfG-zZuNlww" />
 <!--
 GitHub Profile README for shahriarbd10
 - Inline SVG header + achievements with NO <style> tags (avoids leaking text).
