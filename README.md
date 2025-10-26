@@ -1,5 +1,5 @@
-<!-- shahriarbd10 -->
-<!-- Let's start  -->
+<!-- Profile README for shahriarbd10 -->
+<!-- Clean, professional, and curiosity-driven developer theme -->
 
 <div align="center">
   <svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shahriar Hossain (shahriarbd10) — Full Stack Developer | Tech Enthusiast" style="width:100%;height:auto;max-height:220px;">
@@ -11,10 +11,11 @@
     </defs>
     <rect width="1200" height="220" fill="url(#bgGrad)"/>
     <path d="M0,150 C240,190 460,110 720,150 C980,190 1100,120 1200,160 L1200,220 L0,220 Z" fill="rgba(255,255,255,0.1)"/>
-    <text x="50%" y="110" text-anchor="middle" fill="#fff" font-size="40" font-weight="800">Shahriar Hossain</text>
-    <text x="50%" y="145" text-anchor="middle" fill="#e2e8f0" font-size="18">(shahriarbd10)</text>
-    <text x="50%" y="172" text-anchor="middle" fill="#f9fafb" font-size="15">Full Stack Developer | Tech Enthusiast | Cloud Learner</text>
+    <text x="50%" y="100" text-anchor="middle" fill="#fff" font-size="40" font-weight="800">Shahriar Hossain</text>
+    <text x="50%" y="135" text-anchor="middle" fill="#e2e8f0" font-size="18">(shahriarbd10)</text>
+    <text x="50%" y="168" text-anchor="middle" fill="#f9fafb" font-size="15">Full Stack Developer | Tech Enthusiast | Cloud Learner</text>
   </svg>
+  <hr style="border: 0; height: 1px; background: linear-gradient(90deg, #0ea5e9, #a855f7, #0ea5e9); margin: 20px 0; width: 60%;">
 </div>
 
 <div align="center">
@@ -26,23 +27,23 @@
 ---
 
 ## 👨‍💻 About Me
-Hey! I’m **Shahriar Hossain**, a **Full Stack Developer** and **tech enthusiast** who loves solving complex problems through creativity and logic.  
-I’m passionate about building scalable systems, experimenting with cloud technologies, and exploring how modern tools can make development faster and smarter.
+Hey! I’m **Shahriar Hossain**, a **Full Stack Developer** and **tech enthusiast** driven by curiosity and problem-solving.  
+I love exploring emerging technologies and turning ideas into real, functional applications that make an impact.
 
 ### 🌱 Currently Exploring
-- Next.js 15 • TypeScript • Edge Functions  
-- Serverless APIs • Cloud architecture optimization  
+- Next.js 16 • TypeScript • Edge Functions  
+- Cloud automation • Scalable backend design  
 
 ### 💡 Interests
-- SaaS and automation platforms  
-- Real-time data systems  
-- Mobile development with Flutter & Dart  
+- Scalable SaaS systems and modern dashboards  
+- Real-time data integration and automation  
+- Learning, debugging, and optimizing performance  
 
 ---
 
 ## ⚙️ Tech Stack
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,python,flutter,dart,aws,nginx,arduino,git,vscode" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,python,flutter,dart,aws,nginx,arduino,git,vscode" />
 </div>
 
 ---
@@ -50,22 +51,22 @@ I’m passionate about building scalable systems, experimenting with cloud techn
 ## 🚀 Featured Projects
 
 ### 🐟 Xfishery Dashboard  
-[🌐 Visit Website](https://xfishery.com) • [🎥 Demo Post](https://www.linkedin.com/posts/shahriarbd10_iot-aquaculture-smartaquaculture-activity-7386217565359915008-tkKs?utm_source=social_share_send&utm_medium=member_desktop_web)  
-A smart aquaculture platform that visualizes sensor data in real-time for efficient monitoring and control.  
-**Stack:** Node.js • React • WebSockets/MQTT • MongoDB • Cloud APIs  
+[🌐 Visit Website](https://xfishery.com) • [🎥 Demo Post](https://www.linkedin.com/posts/shahriarbd10_iot-aquaculture-smartaquaculture-activity-7386217565359915008-tkKs)  
+An intelligent monitoring platform built for aquaculture management — connecting live sensor data with analytics dashboards.  
+**Stack:** Node.js • React • WebSockets/MQTT • MongoDB • Nginx HTTPS  
 
 ---
 
 ### 💊 [MediTrack Pharmacy SaaS](https://meditrack-v1.vercel.app)  
-A SaaS web application for pharmacies to manage inventory, billing, and sales dashboards with multi-role access.  
-**Stack:** MERN Stack • JWT Auth • HTTPS • Nginx • AWS EC2  
+A full-stack SaaS for pharmacies — inventory, invoicing, analytics, and access management.  
+**Stack:** MERN Stack • JWT Auth • Cloud APIs • Nginx HTTPS  
 
 ---
 
 ### ⚖️ [Lex.Ai Legal Assistant](#)  
-An AI-driven chatbot designed to assist professionals with legal workflow automation and smart templates.  
-**Role:** Co-Founder — developing the backend and AI integration layer.  
-**Stage:** Currently in prototype and under active development.  
+An AI-powered chatbot simplifying legal workflow and documentation.  
+**Role:** Co-Founder — working on backend APIs and conversational logic.  
+*(Currently under prototype development)*  
 
 ---
 
@@ -89,16 +90,16 @@ An AI-driven chatbot designed to assist professionals with legal workflow automa
 ---
 
 ## 🧩 Highlights
-- Built full-stack dashboards combining **performance** and **modern UI/UX**  
-- Integrated **ESP32** sensors into real-time cloud applications  
-- Serving as **CTO at Xfishery**, leading web and data architecture design  
-- **Co-Founder at Lex.Ai**, developing the prototype with AI-powered automation  
-- Always curious and passionate about learning and improving through new technologies  
+- Built **full-stack dashboards** with performance and modern UI/UX  
+- Integrated **ESP32** data into real-time monitoring systems  
+- **CTO at Xfishery** — managing cloud and data architecture  
+- **Co-Founder at Lex.Ai** — developing backend and API logic (prototype)  
+- Always **curious**, learning, and exploring emerging technologies  
 
 ---
 
 ## 💬 Philosophy
-> “Curiosity fuels creation - every challenge is a new opportunity to innovate.”  
+> “Technology is the bridge between curiosity and creation and I love walking that bridge every day.”  
 > – Shahriar Hossain  
 
 ---
@@ -120,7 +121,5 @@ An AI-driven chatbot designed to assist professionals with legal workflow automa
 ---
 
 <div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inter&size=20&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=600&lines=Exploring+Technology+with+Curiosity;Building+Scalable+Full+Stack+Applications;Learning%2C+Fixing%2C+and+Improving+Every+Day)](https://github.com/shahriarbd10)
-
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=20&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=600&lines=Exploring+Technology+with+Curiosity;Building+Scalable+Full+Stack+Applications;Learning%2C+Fixing%2C+and+Improving+Every+Day" alt="Typing animation"/>
 </div>
