@@ -1,11 +1,8 @@
-// Smooth intro animation on scroll
-const elements = document.querySelectorAll('.project-card, .section-glass, .stats img');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('fade-in');
-    }
+// Scroll animation observer
+const fadeEls = document.querySelectorAll('.fade-in');
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) e.target.classList.add('visible');
   });
 }, { threshold: 0.2 });
-
-elements.forEach(el => observer.observe(el));
+fadeEls.forEach(el => obs.observe(el));
