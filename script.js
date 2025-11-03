@@ -1,8 +1,8 @@
-// Scroll animation observer
-const fadeEls = document.querySelectorAll('.fade-in');
-const obs = new IntersectionObserver((entries) => {
-  entries.forEach(e => {
-    if (e.isIntersecting) e.target.classList.add('visible');
+// Subtle fade-in animation on scroll
+const faders = document.querySelectorAll('.project-card, .tech-section, .projects-section h2');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('fade');
   });
 }, { threshold: 0.2 });
-fadeEls.forEach(el => obs.observe(el));
+faders.forEach(el => observer.observe(el));
