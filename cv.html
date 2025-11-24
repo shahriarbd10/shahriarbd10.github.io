@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Shahriar Hossain</title>
+
+  <meta name="description"
+        content="Curriculum Vitae of Shahriar Hossain - Full-Stack · SaaS." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="assets/favicon.svg" />
+  <meta name="theme-color" content="#020617" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Extra styles just for the timeline layout -->
+  <style>
+    .cv-hero {
+      padding-top: 5.2rem;
+      padding-bottom: 2.5rem;
+    }
+
+    .cv-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 2.2rem;
+      align-items: center;
+    }
+
+    .cv-summary {
+      max-width: 34rem;
+    }
+
+    .cv-summary p {
+      font-size: 0.94rem;
+      color: var(--text-soft);
+      line-height: 1.7;
+    }
+
+    .cv-meta {
+      margin-top: 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .cv-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.83rem;
+      color: var(--text-soft);
+    }
+
+    .cv-meta-item i {
+      color: var(--accent);
+    }
+
+    .timeline {
+      position: relative;
+      margin: 0;
+      padding-left: 1.2rem;
+      list-style: none;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 6px;
+      top: 0.15rem;
+      bottom: 0.15rem;
+      width: 2px;
+      border-radius: 999px;
+      background: linear-gradient(to bottom, #4f46e5, #a855f7);
+      opacity: 0.6;
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-left: 1.6rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .timeline-item:last-child {
+      margin-bottom: 0.2rem;
+    }
+
+    .timeline-dot {
+      position: absolute;
+      left: -0.05rem;
+      top: 0.35rem;
+      width: 12px;
+      height: 12px;
+      border-radius: 999px;
+      background: #020617;
+      border: 2px solid #a855f7;
+      box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
+    }
+
+    body.light-mode .timeline-dot {
+      background: #f9fafb;
+    }
+
+    .timeline-title-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.4rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .timeline-role {
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    .timeline-org {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+    }
+
+    .timeline-meta {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 0.3rem;
+    }
+
+    .timeline-desc {
+      font-size: 0.82rem;
+      color: var(--text-soft);
+      margin: 0;
+    }
+
+    .timeline-desc ul {
+      margin: 0.2rem 0 0.3rem;
+      padding-left: 1rem;
+    }
+
+    .timeline-desc li {
+      margin-bottom: 0.15rem;
+    }
+
+    .cv-columns {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 1.6rem;
+    }
+
+    .cv-tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .cv-tag {
+      font-size: 0.8rem;
+      padding: 0.24rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.55);
+      background: rgba(15, 23, 42, 0.95);
+    }
+
+    body.light-mode .cv-tag {
+      background: rgba(248, 250, 252, 0.98);
+    }
+
+    .cv-list {
+      margin: 0;
+      padding-left: 1rem;
+      font-size: 0.86rem;
+      color: var(--text-soft);
+    }
+
+    .cv-list li + li {
+      margin-top: 0.2rem;
+    }
+
+    .cv-subtitle {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-top: 0.1rem;
+    }
+
+    @media (max-width: 960px) {
+      .cv-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .cv-columns {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- BACKGROUND BLOBS -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="app-shell">
+    <!-- HEADER (same as index, CV active, no download button) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html#hero" class="brand">
+          <div class="brand-logo">SH</div>
+          <div class="brand-text">
+            <span class="brand-name">Shahriar Hossain</span>
+            <span class="brand-tagline">Full-Stack Developer · Dhaka, Bangladesh</span>
+          </div>
+        </a>
+
+        <nav class="nav">
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <i class="ri-menu-3-line"></i>
+          </button>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="index.html#hero" class="nav-link">Home</a></li>
+            <li><a href="index.html#about" class="nav-link">About</a></li>
+            <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+            <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+            <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            <li><a href="cv.html" class="nav-link active">CV</a></li>
+          </ul>
+
+          <div class="header-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+              <i class="ri-moon-line theme-icon theme-icon-dark"></i>
+              <i class="ri-sun-line theme-icon theme-icon-light"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- CV HERO -->
+      <section class="section cv-hero">
+        <div class="container section-inner">
+          <div class="cv-grid">
+            <div class="cv-summary reveal">
+              <p class="eyebrow">Curriculum Vitae</p>
+              <h1 class="section-title" style="font-size:2.2rem;">
+                Shahriar Hossain 
+              </h1>
+              <p>
+                Software engineer with a product mindset and experience shipping SaaS dashboards
+                and IoT platforms into real usage. I’ve worked as a technical lead and builder on
+                projects where reliability, UX, and deployment actually matter.
+              </p>
+              <p>
+                I’m looking for roles where I can own features end-to-end: from API design and
+                database schema to React/Next.js UI, deployments, and monitoring.
+              </p>
+
+              <div class="cv-meta">
+                <div class="cv-meta-item">
+                  <i class="ri-mail-line"></i>
+                  <a href="mailto:shahriagr@gmail.com">shahriagr@gmail.com</a>
+                </div>
+                <div class="cv-meta-item">
+                  <i class="ri-github-line"></i>
+                  <a href="https://github.com/shahriarbd10" target="_blank">github.com/shahriarbd10</a>
+                </div>
+                <div class="cv-meta-item">
+                  <i class="ri-linkedin-box-line"></i>
+                  <a href="https://www.linkedin.com/in/shahriarbd" target="_blank">linkedin.com/in/shahriarbd</a>
+                </div>
+                <div class="cv-meta-item">
+                  <i class="ri-map-pin-line"></i>
+                  <span>Dhaka, Bangladesh · Open to remote</span>
+                </div>
+              </div>
+
+              <div style="margin-top:1.2rem;display:flex;flex-wrap:wrap;gap:0.6rem;">
+                <a href="index.html#projects" class="btn btn-ghost">
+                  <i class="ri-window-line"></i>
+                  <span>Back to portfolio</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-right reveal">
+              <div class="profile-card tilt">
+                <div class="profile-photo">
+                  <img src="assets/profile.jpeg" alt="Shahriar portrait" />
+                </div>
+                <div class="profile-body">
+                  <div class="chips-row">
+                    <span class="chip chip-primary">
+                      <span class="chip-dot"></span> Full-Stack · SaaS · Product mindset
+                    </span>
+                    <span class="chip chip-soft">IoT & real-world systems</span>
+                  </div>
+                  <div class="stats-grid">
+                    <div class="stat-item">
+                      <span class="stat-label">Production projects</span>
+                      <span class="stat-value">10+</span>
+                      <span class="stat-sub">SaaS, IoT & tools</span>
+                    </div>
+                    <div class="stat-item">
+                      <span class="stat-label">Leadership</span>
+                      <span class="stat-value">2x</span>
+                      <span class="stat-sub">Technical lead / co-founder roles</span>
+                    </div>
+                  </div>
+                  <div class="tech-pills">
+                    <span>Next.js · React</span>
+                    <span>Node.js · Express</span>
+                    <span>MongoDB</span>
+                    <span>TypeScript</span>
+                    <span>ESP32 · MQTT</span>
+                  </div>
+                  <div class="profile-footer">
+                    <div class="social-links">
+                      <a href="https://github.com/shahriarbd10" target="_blank" aria-label="GitHub">
+                        <i class="ri-github-line"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/in/shahriarbd" target="_blank" aria-label="LinkedIn">
+                        <i class="ri-linkedin-box-line"></i>
+                      </a>
+                      <a href="mailto:shahriagr@gmail.com" aria-label="Email">
+                        <i class="ri-mail-line"></i>
+                      </a>
+                    </div>
+                    <span class="availability">
+                      <span class="dot-live"></span> Open to Associate Software Engineer roles
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE TIMELINE -->
+      <section class="section">
+        <div class="container section-inner">
+          <div class="section-header reveal">
+            <p class="eyebrow">Experience</p>
+            <h2 class="section-title">Professional & project experience timeline.</h2>
+            <p class="section-desc">
+              Mix of startup responsibilities, client work, and university-driven products.
+              Titles are blended because I usually own both engineering and product decisions.
+            </p>
+          </div>
+
+          <div class="card glass reveal">
+            <ul class="timeline">
+              <li class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-title-row">
+                  <span class="timeline-role">CTO & Full-Stack Lead</span>
+                  <span class="timeline-org">· XFishery - Smart Aquaculture Platform</span>
+                </div>
+                <div class="timeline-meta">2023 – Present · Dhaka · Part-time / Startup</div>
+                <div class="timeline-desc">
+                  <ul>
+                    <li>
+                      Architecting **XFishery 2.0**: farmer & admin dashboards, device management,
+                      and per-device runtime tracking stored in MongoDB.
+                    </li>
+                    <li>
+                      Designed & implemented Node.js/Express backend with JWT auth, role-based
+                      access (admin / farmer), and REST APIs consumed by a Next.js frontend.
+                    </li>
+                    <li>
+                      Integrated pond devices (aerators, feeders, sensors) via ESP32, UART and MQTT,
+                      sending live data to dashboards hosted on AWS EC2 & Vercel.
+                    </li>
+                    <li>
+                      Leading small tech team, planning phases, and communicating progress with
+                      non-technical stakeholders such as farmers & NGO partners.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-title-row">
+                  <span class="timeline-role">Co-founder & Tech Lead</span>
+                  <span class="timeline-org">· Lex.AI - Legal-Tech AI Assistant</span>
+                </div>
+                <div class="timeline-meta">2023 – 2024 · Dhaka · Startup / Accelerator</div>
+                <div class="timeline-desc">
+                  <ul>
+                    <li>
+                      Co-created Lex.AI, an AI-powered legal guidance assistant that explains legal
+                      steps in simple Bangla/English and routes users to the right help.
+                    </li>
+                    <li>
+                      Built MVP web interface, API integration with LLM backend, and designed
+                      the information architecture for flows like “file a case”, “police station steps”, etc.
+                    </li>
+                    <li>
+                      Contributed to pitch, demo and technical roadmap - Lex.AI won the
+                      <strong>DIU Accelerator Cup 2023</strong> with ~10L seed funding.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-title-row">
+                  <span class="timeline-role">Full-Stack Developer</span>
+                  <span class="timeline-org">· MediTrack - Pharmacy Management SaaS</span>
+                </div>
+                <div class="timeline-meta">2023 – Present · Client project</div>
+                <div class="timeline-desc">
+                  <ul>
+                    <li>
+                      Designed and implemented a MERN-based pharmacy management system handling
+                      inventory, sales, invoicing and reports.
+                    </li>
+                    <li>
+                      Deployed backend on <strong>AWS EC2</strong> and frontend on <strong>Vercel</strong> with a custom
+                      domain, configuring Nginx reverse proxy and environment-specific settings.
+                    </li>
+                    <li>
+                      Focused on stable UX for non-technical pharmacy owners:
+                      minimal clicks, clear tables, and predictable flows.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-title-row">
+                  <span class="timeline-role">Full-Stack / Tools Builder</span>
+                  <span class="timeline-org">· DIU student utilities</span>
+                </div>
+                <div class="timeline-meta">2022 – 2024 · Academic / Community</div>
+                <div class="timeline-desc">
+                  <ul>
+                    <li>
+                      Built internal tools such as class routine managers, CGPA planners and
+                      dashboards used by classmates and juniors.
+                    </li>
+                    <li>
+                      Owned complete lifecycle from gathering feedback to launching on the web
+                      and iterating based on usage.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION & SKILLS -->
+      <section class="section section-alt">
+        <div class="container section-inner">
+          <div class="section-header reveal">
+            <p class="eyebrow">Education & skills</p>
+            <h2 class="section-title">Formal background plus the stacks I use daily.</h2>
+          </div>
+
+          <div class="cv-columns">
+            <!-- Education card -->
+            <div class="card glass reveal">
+              <h3 class="card-title">Education</h3>
+              <div>
+                <p style="margin:0;font-weight:600;">B.Sc. in Computer Science & Engineering</p>
+                <p class="cv-subtitle">
+                  Daffodil International University (DIU) · 4-year program
+                </p>
+                <p class="timeline-meta" style="margin-top:0.25rem;">
+                  Approx. 2021 – 2025 · Dhaka, Bangladesh
+                </p>
+                <ul class="cv-list">
+                  <li>Focused on software engineering, databases, networking, and IoT.</li>
+                  <li>Built multiple course projects that later evolved into real products.</li>
+                  <li>Active in tech & startup communities, hackathons, and accelerator programs.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Skills snapshot -->
+            <div class="card glass reveal">
+              <h3 class="card-title">Tech stack snapshot</h3>
+              <p class="card-text small" style="margin-bottom:0.5rem;">
+                These are the technologies I’m comfortable using in production projects.
+              </p>
+              <div class="cv-tag-cloud">
+                <!-- Languages & core -->
+                <span class="cv-tag">JavaScript (ES6+)</span>
+                <span class="cv-tag">TypeScript</span>
+                <span class="cv-tag">Python (scripts)</span>
+                <span class="cv-tag">C/C++ (academic)</span>
+
+                <!-- Web / frontend -->
+                <span class="cv-tag">React</span>
+                <span class="cv-tag">Next.js</span>
+                <span class="cv-tag">HTML5 & CSS3</span>
+                <span class="cv-tag">Tailwind CSS</span>
+                <span class="cv-tag">shadcn UI</span>
+                <span class="cv-tag">Figma</span>
+
+                <!-- Backend / data -->
+                <span class="cv-tag">Node.js</span>
+                <span class="cv-tag">Express.js</span>
+                <span class="cv-tag">REST APIs</span>
+                <span class="cv-tag">JWT Auth</span>
+                <span class="cv-tag">MongoDB + Mongoose</span>
+                <span class="cv-tag">MySQL</span>
+
+                <!-- DevOps / infra -->
+                <span class="cv-tag">Git & GitHub</span>
+                <span class="cv-tag">AWS EC2</span>
+                <span class="cv-tag">Nginx</span>
+                <span class="cv-tag">Vercel</span>
+                <span class="cv-tag">Docker (basics)</span>
+                <span class="cv-tag">CI/CD basics</span>
+
+                <!-- IoT -->
+                <span class="cv-tag">ESP32</span>
+                <span class="cv-tag">UART / serial comms</span>
+                <span class="cv-tag">MQTT</span>
+                <span class="cv-tag">Sensor integrations (pH, DO, temp, ammonia)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ACHIEVEMENTS & BEYOND CODE -->
+      <section class="section">
+        <div class="container section-inner">
+          <div class="section-header reveal">
+            <p class="eyebrow">Achievements & beyond code</p>
+            <h2 class="section-title">Highlights that show how I work under pressure.</h2>
+          </div>
+
+          <div class="cv-columns">
+            <div class="card glass reveal">
+              <h3 class="card-title">Selected achievements</h3>
+              <ul class="cv-list">
+                <li>
+                  <strong>Champion - DIU Accelerator Cup 2023</strong> with Lex.AI,
+                  securing ~10L seed funding as tech & co-founder.
+                </li>
+                <li>
+                  <strong>Multiple production deployments</strong> (XFishery, MediTrack,
+                  internal tools) running on AWS EC2 + Vercel with real users.
+                </li>
+                <li>
+                  <strong>IoT deployments</strong> in real ponds for monitoring water quality
+                  and controlling aerators/feeders with ESP32 & dashboards.
+                </li>
+                <li>
+                  <strong>Active community contributor</strong> in university and local
+                  startup ecosystem, often helping juniors with tech decisions.
+                </li>
+              </ul>
+            </div>
+
+            <div class="card glass reveal">
+              <h3 class="card-title">Outside work</h3>
+              <ul class="cv-list">
+                <li>
+                  <strong>ECB Lightforce captain</strong> - futsal experience that shaped my
+                  leadership, communication and strategy thinking.
+                </li>
+                <li>
+                  <strong>10km runner</strong> - completed official 10k events and regular
+                  training, bringing discipline & consistency into my daily routine.
+                </li>
+                <li>
+                  Enjoy mentoring friends and juniors on project ideas, portfolio building,
+                  and realistic roadmaps for SaaS products.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="footerYear"></span> Shahriar Hossain. All rights reserved.</p>
+        <p>Downloadable CV available on request · Built with the same stack I love working in</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
