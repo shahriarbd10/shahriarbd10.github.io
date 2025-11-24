@@ -1,0 +1,45 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Outer gradient background -->
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="40%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <!-- Accent ring gradient -->
+    <linearGradient id="ring-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="40%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded background -->
+  <rect x="4" y="4" width="56" height="56" rx="18" ry="18" fill="url(#bg-gradient)"/>
+
+  <!-- Accent ring -->
+  <circle cx="32" cy="32" r="20" fill="none" stroke="url(#ring-gradient)" stroke-width="2.4" />
+
+  <!-- Inner dark circle -->
+  <circle cx="32" cy="32" r="16.5" fill="#020617" />
+
+  <!-- Left code bracket "<" -->
+  <path d="M21 24 L23 22 L18 32 L23 42 L21 40 L17 32 Z" fill="#22d3ee" />
+
+  <!-- Right code bracket ">" -->
+  <path d="M43 24 L41 22 L46 32 L41 42 L43 40 L47 32 Z" fill="#a855f7" />
+
+  <!-- Big SH monogram (straight S, large, centered) -->
+  <text
+    x="32"
+    y="36"
+    text-anchor="middle"
+    fill="#e5e7eb"
+    font-size="18"
+    font-weight="700"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+  >
+    SH
+  </text>
+</svg>
