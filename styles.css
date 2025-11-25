@@ -1206,20 +1206,29 @@ body.light-mode .pill-soft {
   font-size: 0.9rem;
 }
 
+/* DARK THEME HOVER */
 .project-link:hover {
   background: linear-gradient(135deg, #4f46e5, #a855f7);
   transform: translateY(-1px);
   box-shadow: 0 18px 40px rgba(15, 23, 42, 0.8);
+  color: #f9fafb !important;       /* keep text bright */
 }
 
+/* LIGHT THEME BASE */
 body.light-mode .project-link {
   color: #0f172a;
   background: rgba(248, 250, 252, 0.98);
 }
 
-.project-role {
-  font-size: 0.78rem;
-  color: var(--text-muted);
+/* LIGHT THEME HOVER (override base + global a:hover) */
+body.light-mode .project-link:hover {
+  background: linear-gradient(135deg, #4f46e5, #a855f7);
+  color: #f9fafb !important;
+}
+
+.project-link i,
+body.light-mode .project-link:hover i {
+  color: inherit !important;
 }
 
 /* =========================
